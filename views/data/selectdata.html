@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        function getSelected(){
+            var row = $('#tt').datagrid('getSelected');
+            if (row){
+                alert('Item ID:'+row.Itemid+"\nPrice:"+row.Listprice);
+            }
+        }
+        function getSelections(){
+            var ids = [];
+            var rows = $('#tt').datagrid('getSelections');
+            for(var i=0; i<rows.length; i++){
+                ids.push(rows[i].Itemid);
+            }
+            alert(ids.join('\n'));
+        }
+
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+<div style="margin-bottom:20px">
+    <a href="#" onclick="getSelected()">GetSelected</a>
+    <a href="#" onclick="getSelections()">GetSelections</a>
+</div>
+<table id="tt" class="easyui-datagrid" style="width:600px;height:250px"
+       url="/getdata"
+       title="Load Data" iconCls="icon-save">
+    <thead>
+    <tr>
+        <th field="Itemid" width="80">Item ID</th>
+        <th field="Productid" width="80">Product ID</th>
+        <th field="Listprice" width="80" align="right">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+</body>
+
+</html>

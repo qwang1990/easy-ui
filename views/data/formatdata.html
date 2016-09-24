@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        function formatPrice(val,row){
+            if (val < 20){
+                return '<span style="color:red;">('+val+')</span>';
+            } else {
+                return val;
+            }
+        }
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<table id="tt" class="easyui-datagrid" style="width:600px;height:250px"
+       url="/getdata"
+       title="Load Data" iconCls="icon-save" toolbar="#tb">
+    <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:alert('Add')">Add</a>
+    <a href="#" class="easyui-linkbutton" iconCls="icon-cut"  onclick="javascript:alert('Cut')">Cut</a>
+    <a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="javascript:alert('Save')">Save</a>
+    <thead>
+    <tr>
+        <th field="Itemid" width="80">Item ID</th>
+        <th field="Productid" width="80">Product ID</th>
+        <th field="Listprice" width="80" align="right" formatter="formatPrice">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>

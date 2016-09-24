@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+
+        function sortForm(){
+            $('#ttt').datagrid({
+                title:'Custom Sort',
+                iconCls:'icon-ok',
+                width:520,
+                height:250,
+                singleSelect:true,
+                remoteSort:false,
+                columns:[[
+                    {field:'Itemid',title:'Item ID',width:60,sortable:true},
+                    {field:'Listprice',title:'List Price',width:70,align:'right',sortable:true},
+                    {field:'Unitcost',title:'Unit Cost',width:70,align:'right',sortable:true},
+                    {field:'Attr1',title:'Attribute',width:120,sortable:true},
+                    {field:'Date',title:'Date',width:80,sortable:true,align:'center',
+                        sorter:function(a,b){
+                            a = a.split('/');
+                            b = b.split('/');
+                            if (a[2] == b[2]){
+                                if (a[0] == b[0]){
+                                    return (a[1]>b[1]?1:-1);
+                                } else {
+                                    return (a[0]>b[0]?1:-1);
+                                }
+                            } else {
+                                return (a[2]>b[2]?1:-1);
+                            }
+                        }
+                    },
+                    {field:'status',title:'Status',width:40,align:'center'}
+                ]]
+            }).datagrid('loadData', {});
+        }
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<table id="tt" class="easyui-datagrid" style="width:600px;height:250px"
+       url="/getdata"
+       title="Load Data" iconCls="icon-save" toolbar="#tb">
+    <thead>
+    <tr>
+        <th field="Itemid" width="80" sortable="true">Item ID</th>
+        <th field="Productid" width="80" sortable="true">Product ID</th>
+        <th field="Listprice" width="80" align="right" sortable="true">List Price</th>
+        <th field="Unitcost" width="80" align="right" sortable="true">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+
+
+
+<div style="margin-bottom:20px">
+    <a href="#" onclick="sortForm()">changecolumn</a>
+</div>
+
+<table id="ttt" title="Frozen Columns" class="easyui-datagrid" style="width:550px;height:250px"
+       url="/getdata"
+       singleSelect="true" iconCls="icon-save">
+</table>
+
+
+</body>
+
+</html>

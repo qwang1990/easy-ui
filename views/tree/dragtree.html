@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        function appendnodes(){
+            var node = $('#tt').tree('getSelected');
+            if (node){
+                var nodes = [{
+                    "id":13,
+                    "text":"Raspberry"
+                },{
+                    "id":14,
+                    "text":"Cantaloupe"
+                }];
+                $('#tt').tree('append', {
+                    parent:node.target,
+                    data:nodes
+                });
+            }
+        }
+        $('#tt').tree({
+            onDrop: function(targetNode, source, point){
+                var targetId = $(target).tree('getNode', targetNode).id;
+                $.ajax({
+                    url: '...',
+                    type: 'post',
+                    dataType: 'json',
+                    data: {
+                        id: source.id,
+                        targetId: targetId,
+                        point: point
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+<h1>Tree</h1>
+<div style="margin-bottom:10px;">
+    <a href="#" onclick="appendnodes()">append nodes</a>
+</div>
+<div style="width:200px;height:auto;border:1px solid #ccc;">
+    <ul id="tt" class="easyui-tree" url="/treedata" checkbox="true" dnd="true"></ul>
+</div>
+
+
+</body>
+
+</html>

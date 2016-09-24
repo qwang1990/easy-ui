@@ -1,0 +1,1524 @@
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|   5.163871ms|   match|[44m [0m GET     /win   r:/win
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|    123.728µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|     125.23µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|    135.226µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|   1.167012ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|    182.486µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|     76.675µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|     87.361µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|    111.522µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:19:14 [D] [server.go:2081] |[42m 200 [0m|     76.009µs|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:23:42 [main.go:32] this is a message of http
+2016/09/23 09:23:42 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:23:42 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:23:42 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:23:42 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:23:42 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:23:42 [C] [proc.go:188] oh,crash
+2016/09/23 09:23:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:23:42 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:24:15 [main.go:32] this is a message of http
+2016/09/23 09:24:15 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:24:15 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:24:15 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:24:15 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:24:15 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:24:15 [C] [proc.go:188] oh,crash
+2016/09/23 09:24:15 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:24:15 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:24:34 [main.go:32] this is a message of http
+2016/09/23 09:24:34 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:24:34 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:24:34 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:24:34 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:24:34 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:24:34 [C] [proc.go:188] oh,crash
+2016/09/23 09:24:34 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:24:34 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:24:37 [main.go:32] this is a message of http
+2016/09/23 09:24:37 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:24:37 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:24:37 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:24:37 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:24:37 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:24:37 [C] [proc.go:188] oh,crash
+2016/09/23 09:24:37 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:24:37 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|   1.400926ms|   match|[44m [0m GET     /diywin   r:/diywin
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|    641.574µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|    6.03915ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|    984.669µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|   3.854297ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:26:05 [D] [server.go:2081] |[42m 200 [0m|   4.637201ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:26:06 [D] [server.go:2081] |[42m 200 [0m|   1.191232ms|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:26:06 [D] [server.go:2081] |[42m 200 [0m|     307.79µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:26:06 [D] [server.go:2081] |[42m 200 [0m|    409.511µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:26:06 [D] [server.go:2081] |[42m 200 [0m|    384.799µs|   match|[44m [0m GET     /static/css/themes/icons/edit_remove.png
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|   2.619278ms|   match|[44m [0m GET     /diywin   r:/diywin
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|    233.856µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|    105.392µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|     55.255µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|    694.153µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|    317.106µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|     70.436µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|     83.287µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|    167.003µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:26:47 [D] [server.go:2081] |[42m 200 [0m|     92.137µs|   match|[44m [0m GET     /static/css/themes/icons/edit_remove.png
+2016/09/23 09:29:06 [main.go:32] this is a message of http
+2016/09/23 09:29:06 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:29:06 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:29:06 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:29:06 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:29:06 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:29:06 [C] [proc.go:188] oh,crash
+2016/09/23 09:29:06 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:29:06 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:29:12 [main.go:32] this is a message of http
+2016/09/23 09:29:12 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:29:12 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:29:12 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:29:12 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:29:12 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:29:12 [C] [proc.go:188] oh,crash
+2016/09/23 09:29:12 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:29:12 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:29:26 [main.go:32] this is a message of http
+2016/09/23 09:29:26 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:29:26 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:29:26 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:29:26 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:29:26 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:29:26 [C] [proc.go:188] oh,crash
+2016/09/23 09:29:26 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:29:26 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:29:32 [main.go:32] this is a message of http
+2016/09/23 09:29:32 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:29:32 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:29:32 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:29:32 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:29:32 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:29:32 [C] [proc.go:188] oh,crash
+2016/09/23 09:29:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:29:32 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   1.360125ms|   match|[44m [0m GET     /layoutwin   r:/layoutwin
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    469.704µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   2.389602ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    439.555µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   3.899378ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   5.025622ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   1.201044ms|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    327.182µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    431.735µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|   1.097621ms|   match|[44m [0m GET     /static/css/themes/default/images/tabs_icons.png
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    359.269µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:31:14 [D] [server.go:2081] |[42m 200 [0m|    329.796µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:40:42 [main.go:32] this is a message of http
+2016/09/23 09:40:42 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:40:42 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:40:42 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:40:42 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:40:42 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:40:42 [C] [proc.go:188] oh,crash
+2016/09/23 09:40:42 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:40:42 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:40:44 [main.go:32] this is a message of http
+2016/09/23 09:40:44 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:40:44 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:40:44 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:40:44 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:40:44 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:40:44 [C] [proc.go:188] oh,crash
+2016/09/23 09:40:44 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:40:44 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:41:36 [D] [server.go:2081] |[43m 404 [0m|   11.33433ms| nomatch|[44m [0m GET     /dialog
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   1.587817ms|   match|[44m [0m GET     /dialogwin   r:/dialogwin
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   3.716502ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   4.327057ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   4.753314ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   4.071847ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:41:40 [D] [server.go:2081] |[42m 200 [0m|   4.500065ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|   1.091263ms|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|    359.027µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|    306.055µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|    460.286µs|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|    367.401µs|   match|[44m [0m GET     /static/css/themes/icons/filesave.png
+2016/09/23 09:41:41 [D] [server.go:2081] |[42m 200 [0m|    889.979µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|   2.413779ms|   match|[44m [0m GET     /dialogwin   r:/dialogwin
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|    155.753µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     66.568µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     55.235µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|    424.688µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|    154.577µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     84.516µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|    100.635µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     77.811µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     73.278µs|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     90.744µs|   match|[44m [0m GET     /static/css/themes/icons/filesave.png
+2016/09/23 09:41:53 [D] [server.go:2081] |[42m 200 [0m|     83.406µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     886.29µs|   match|[44m [0m GET     /dialogwin   r:/dialogwin
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|    176.149µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     75.977µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|    405.962µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     61.386µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|   1.052651ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     67.668µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     77.918µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     88.573µs|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     41.507µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|     76.569µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:42:24 [D] [server.go:2081] |[42m 200 [0m|    105.098µs|   match|[44m [0m GET     /static/css/themes/icons/filesave.png
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|   4.155555ms|   match|[44m [0m GET     /dialogwin   r:/dialogwin
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|    156.912µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|    373.919µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|    129.877µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|     40.466µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:45:33 [D] [server.go:2081] |[42m 200 [0m|    417.149µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|    121.494µs|   match|[44m [0m GET     /static/img/email.gif
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     84.205µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     67.724µs|   match|[44m [0m GET     /static/css/themes/icons/ok.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     60.435µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|      72.74µs|   match|[44m [0m GET     /static/css/themes/icons/cancel.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     51.504µs|   match|[44m [0m GET     /static/css/themes/icons/filesave.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     50.015µs|   match|[44m [0m GET     /static/css/themes/icons/edit_add.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|    388.077µs|   match|[44m [0m GET     /static/css/themes/icons/search.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|    398.683µs|   match|[44m [0m GET     /static/css/themes/icons/help.png
+2016/09/23 09:45:34 [D] [server.go:2081] |[42m 200 [0m|     312.79µs|   match|[44m [0m GET     /static/css/themes/icons/pencil.png
+2016/09/23 09:49:45 [main.go:32] this is a message of http
+2016/09/23 09:49:45 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:49:45 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:49:45 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:49:45 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:49:45 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:49:45 [C] [proc.go:188] oh,crash
+2016/09/23 09:49:45 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:49:45 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:49:48 [main.go:32] this is a message of http
+2016/09/23 09:49:48 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:49:48 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:49:48 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:49:48 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:49:48 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:49:48 [C] [proc.go:188] oh,crash
+2016/09/23 09:49:48 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:49:48 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:52:18 [main.go:32] this is a message of http
+2016/09/23 09:52:18 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:52:18 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:52:18 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:52:18 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:52:18 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:52:18 [C] [proc.go:188] oh,crash
+2016/09/23 09:52:18 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:52:18 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] the request url is  /sampletree
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:tree/sampletree
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/23 09:53:02 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] the request url is  /sampletree
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:tree/sampletree
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/23 09:53:43 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/23 09:53:45 [main.go:32] this is a message of http
+2016/09/23 09:53:45 [main.go:33] [ORM] this is a message of orm
+2016/09/23 09:53:45 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 09:53:45 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 09:53:45 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 09:53:45 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 09:53:45 [C] [proc.go:188] oh,crash
+2016/09/23 09:53:45 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 09:53:45 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   1.298013ms|   match|[44m [0m GET     /sampletree   r:/sampletree
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   6.020729ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   4.783289ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   5.022768ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   5.584521ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   6.482385ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:53:48 [D] [server.go:2081] |[42m 200 [0m|   1.160113ms|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|   2.715766ms|   match|[44m [0m GET     /sampletree   r:/sampletree
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|     165.94µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|     86.462µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|    179.298µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|     50.364µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|    523.263µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 09:54:04 [D] [server.go:2081] |[42m 200 [0m|    107.853µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:00:34 [main.go:32] this is a message of http
+2016/09/23 10:00:34 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:00:34 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:00:34 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:00:34 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:00:34 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:00:34 [C] [proc.go:188] oh,crash
+2016/09/23 10:00:34 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:00:34 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:00:37 [main.go:32] this is a message of http
+2016/09/23 10:00:37 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:00:37 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:00:37 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:00:37 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:00:37 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:00:37 [C] [proc.go:188] oh,crash
+2016/09/23 10:00:37 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:00:37 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:00:56 [main.go:32] this is a message of http
+2016/09/23 10:00:56 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:00:56 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:00:56 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:00:56 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:00:56 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:00:56 [C] [proc.go:188] oh,crash
+2016/09/23 10:00:56 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:00:56 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:00:59 [main.go:32] this is a message of http
+2016/09/23 10:00:59 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:00:59 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:00:59 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:00:59 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:00:59 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:00:59 [C] [proc.go:188] oh,crash
+2016/09/23 10:00:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:00:59 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:01:03 [main.go:32] this is a message of http
+2016/09/23 10:01:03 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:01:03 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:01:03 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:01:03 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:01:03 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:01:03 [C] [proc.go:188] oh,crash
+2016/09/23 10:01:03 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:01:03 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:01:43 [main.go:32] this is a message of http
+2016/09/23 10:01:43 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:01:43 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:01:43 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:01:43 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:01:43 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:01:43 [C] [proc.go:188] oh,crash
+2016/09/23 10:01:43 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:01:43 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:01:47 [main.go:32] this is a message of http
+2016/09/23 10:01:47 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:01:47 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:01:47 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:01:47 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:01:47 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:01:47 [C] [proc.go:188] oh,crash
+2016/09/23 10:01:47 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:01:47 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:02:00 [main.go:32] this is a message of http
+2016/09/23 10:02:00 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:02:00 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:02:00 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:02:00 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:02:00 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:02:00 [C] [proc.go:188] oh,crash
+2016/09/23 10:02:00 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:02:00 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:02:19 [main.go:32] this is a message of http
+2016/09/23 10:02:19 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:02:19 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:02:19 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:02:19 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:02:19 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:02:19 [C] [proc.go:188] oh,crash
+2016/09/23 10:02:19 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:02:19 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:09:04 [main.go:32] this is a message of http
+2016/09/23 10:09:04 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:09:04 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:09:04 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:09:04 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:09:04 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:09:04 [C] [proc.go:188] oh,crash
+2016/09/23 10:09:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:09:05 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|  13.328177ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|     3.1162ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|    428.958µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|    368.252µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|      975.4µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|   4.041626ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:09:19 [D] [server.go:2081] |[42m 200 [0m|   2.115768ms|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:09:50 [main.go:32] this is a message of http
+2016/09/23 10:09:50 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:09:50 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:09:50 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:09:50 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:09:50 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:09:50 [C] [proc.go:188] oh,crash
+2016/09/23 10:09:50 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:09:50 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   1.671613ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   4.626517ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   3.369957ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   4.286368ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   4.708055ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|   5.134728ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:09:51 [D] [server.go:2081] |[42m 200 [0m|    472.671µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|   3.284138ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|   1.384377ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|    380.689µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|    126.316µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|    164.768µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|    346.412µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:12:41 [D] [server.go:2081] |[42m 200 [0m|    656.799µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:12:44 [main.go:32] this is a message of http
+2016/09/23 10:12:44 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:12:44 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:12:44 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:12:44 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:12:44 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:12:44 [C] [proc.go:188] oh,crash
+2016/09/23 10:12:44 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:12:44 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|   7.619283ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|   4.504314ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|    345.333µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|   7.496874ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|   7.477817ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:12:54 [D] [server.go:2081] |[42m 200 [0m|   4.144318ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:12:55 [D] [server.go:2081] |[42m 200 [0m|   3.786333ms|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|   5.837491ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|    733.663µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|   1.038916ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|    401.102µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|     99.532µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|     86.602µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:17:54 [D] [server.go:2081] |[42m 200 [0m|   1.880386ms|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|   1.480065ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    113.958µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    805.476µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    109.545µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    239.476µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    430.721µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:17:56 [D] [server.go:2081] |[42m 200 [0m|    468.032µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:17:57 [main.go:32] this is a message of http
+2016/09/23 10:17:57 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:17:57 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:17:57 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:17:57 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:17:57 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:17:57 [C] [proc.go:188] oh,crash
+2016/09/23 10:17:57 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:17:57 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|   2.215984ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|    6.17809ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|   7.600833ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|   7.884554ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|   8.789563ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|  10.247328ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:17:58 [D] [server.go:2081] |[42m 200 [0m|    442.448µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|    1.32753ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|    155.534µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|    230.133µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|     54.319µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|    411.232µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|   1.307977ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:18:00 [D] [server.go:2081] |[42m 200 [0m|     409.44µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|   1.613152ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|    441.157µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|    233.673µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|     62.326µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|     52.171µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:18:18 [D] [server.go:2081] |[42m 200 [0m|  10.973006ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:18:19 [D] [server.go:2081] |[42m 200 [0m|    457.747µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|   1.349519ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|    235.115µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|    229.547µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|     77.264µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|    107.678µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|    344.447µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:18:20 [D] [server.go:2081] |[42m 200 [0m|    444.969µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:18:21 [main.go:32] this is a message of http
+2016/09/23 10:18:21 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:18:21 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:18:21 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:18:21 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:18:21 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:18:21 [C] [proc.go:188] oh,crash
+2016/09/23 10:18:21 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:18:21 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:18:22 [D] [server.go:2081] |[42m 200 [0m|   1.514272ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|   4.576825ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|   4.448511ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|    5.28576ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|   6.201812ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|   9.888052ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:18:23 [D] [server.go:2081] |[42m 200 [0m|    568.359µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|   1.233436ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|    215.928µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|     89.599µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|     66.048µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|    153.082µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|    421.664µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:18:24 [D] [server.go:2081] |[42m 200 [0m|    467.443µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:19:13 [main.go:32] this is a message of http
+2016/09/23 10:19:13 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:19:13 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:19:13 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:19:13 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:19:13 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:19:13 [C] [proc.go:188] oh,crash
+2016/09/23 10:19:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:19:13 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:19:22 [main.go:32] this is a message of http
+2016/09/23 10:19:22 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:19:22 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:19:22 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:19:22 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:19:22 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:19:22 [C] [proc.go:188] oh,crash
+2016/09/23 10:19:22 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:19:22 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|   1.509171ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|    952.964µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|   3.365924ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|   1.319587ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|   2.367465ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|   3.471676ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:19:25 [D] [server.go:2081] |[42m 200 [0m|    492.869µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|   1.156067ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|     340.08µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|    435.692µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|    300.068µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|    157.031µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|     48.309µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:19:27 [D] [server.go:2081] |[42m 200 [0m|    419.739µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|   1.527008ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|    132.554µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|     63.192µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|     78.081µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|    156.005µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:19:28 [D] [server.go:2081] |[42m 200 [0m|    382.971µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:19:29 [D] [server.go:2081] |[42m 200 [0m|    411.121µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|   2.440853ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|      251.8µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|      86.15µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|    106.633µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|    277.539µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|    453.593µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:19:30 [D] [server.go:2081] |[42m 200 [0m|    389.576µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:19:59 [main.go:32] this is a message of http
+2016/09/23 10:19:59 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:19:59 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:19:59 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:19:59 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:19:59 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:19:59 [C] [proc.go:188] oh,crash
+2016/09/23 10:19:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:19:59 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:20:07 [main.go:32] this is a message of http
+2016/09/23 10:20:07 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:20:07 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:20:07 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:20:07 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:20:07 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:20:07 [C] [proc.go:188] oh,crash
+2016/09/23 10:20:07 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:20:07 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:20:28 [main.go:32] this is a message of http
+2016/09/23 10:20:28 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:20:28 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:20:28 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:20:28 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:20:28 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:20:28 [C] [proc.go:188] oh,crash
+2016/09/23 10:20:28 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:20:28 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:20:31 [main.go:32] this is a message of http
+2016/09/23 10:20:31 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:20:31 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:20:31 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:20:31 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:20:31 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:20:31 [C] [proc.go:188] oh,crash
+2016/09/23 10:20:31 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:20:31 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:20:33 [main.go:32] this is a message of http
+2016/09/23 10:20:33 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:20:33 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:20:33 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:20:33 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:20:33 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:20:33 [C] [proc.go:188] oh,crash
+2016/09/23 10:20:33 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:20:33 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:21:35 [main.go:32] this is a message of http
+2016/09/23 10:21:35 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:21:35 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:21:35 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:21:35 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:21:35 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:21:35 [C] [proc.go:188] oh,crash
+2016/09/23 10:21:35 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:21:35 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:21:39 [main.go:32] this is a message of http
+2016/09/23 10:21:39 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:21:39 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:21:39 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:21:39 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:21:39 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:21:39 [C] [proc.go:188] oh,crash
+2016/09/23 10:21:39 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:21:39 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:21:55 [main.go:32] this is a message of http
+2016/09/23 10:21:55 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:21:55 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:21:55 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:21:55 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:21:55 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:21:55 [C] [proc.go:188] oh,crash
+2016/09/23 10:21:55 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:21:55 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|   1.833898ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|   5.025391ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|    629.867µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|  10.920835ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|   5.731368ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|   6.655198ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:21:59 [D] [server.go:2081] |[42m 200 [0m|    450.023µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:22:17 [main.go:32] this is a message of http
+2016/09/23 10:22:17 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:22:17 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:22:17 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:22:17 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:22:17 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:22:17 [C] [proc.go:188] oh,crash
+2016/09/23 10:22:17 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:22:17 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:23:59 [main.go:32] this is a message of http
+2016/09/23 10:23:59 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:23:59 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:23:59 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:23:59 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:23:59 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:23:59 [C] [proc.go:188] oh,crash
+2016/09/23 10:23:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:23:59 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:24:09 [main.go:32] this is a message of http
+2016/09/23 10:24:09 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:24:09 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:24:09 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:24:09 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:24:09 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:24:09 [C] [proc.go:188] oh,crash
+2016/09/23 10:24:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:24:09 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   3.345912ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   2.159304ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   4.350906ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   4.507755ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   5.173901ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|   6.672719ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:24:14 [D] [server.go:2081] |[42m 200 [0m|    635.681µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:24:44 [main.go:32] this is a message of http
+2016/09/23 10:24:44 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:24:44 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:24:44 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:24:44 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:24:44 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:24:44 [C] [proc.go:188] oh,crash
+2016/09/23 10:24:44 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:24:44 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|   2.763532ms|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|   8.240379ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|   2.449604ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|    5.22502ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|   3.682614ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|   4.333658ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:24:45 [D] [server.go:2081] |[42m 200 [0m|    521.553µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|   4.226879ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|    191.393µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|    655.169µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|   1.613707ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|    127.088µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|    797.412µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:26:10 [D] [server.go:2081] |[42m 200 [0m|    522.285µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:31:00 [main.go:32] this is a message of http
+2016/09/23 10:31:00 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:31:00 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:31:00 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:31:00 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:31:00 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:31:00 [C] [proc.go:188] oh,crash
+2016/09/23 10:31:00 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:31:00 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   3.191504ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   1.396831ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   5.011625ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   6.123569ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   6.685154ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   7.104946ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|    562.585µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:31:01 [D] [server.go:2081] |[42m 200 [0m|   1.482838ms|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|    859.081µs|   match|[44m [0m GET     /asynctree   r:/asynctree
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|    211.712µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|     46.133µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|     46.206µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|    390.691µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|    644.622µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:31:10 [D] [server.go:2081] |[42m 200 [0m|    435.936µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:31:11 [D] [server.go:2081] |[42m 200 [0m|    119.315µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    4.03894ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    107.036µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    191.063µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    385.505µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    219.783µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|     55.152µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|    429.746µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:32:03 [D] [server.go:2081] |[42m 200 [0m|     80.899µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|   2.662425ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|     91.727µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|    139.988µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|    206.895µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|     59.764µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|    314.602µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|    423.627µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:32:16 [D] [server.go:2081] |[42m 200 [0m|     91.854µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|    918.888µs|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|      87.41µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|    149.418µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|     50.443µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|     395.44µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:32:26 [D] [server.go:2081] |[42m 200 [0m|    151.487µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:32:27 [D] [server.go:2081] |[42m 200 [0m|    631.083µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:32:27 [D] [server.go:2081] |[42m 200 [0m|     88.911µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|   2.215712ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|     86.419µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|    575.097µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|     76.043µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|    229.072µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|      497.3µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:33:20 [D] [server.go:2081] |[42m 200 [0m|     407.85µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:33:21 [D] [server.go:2081] |[42m 200 [0m|     83.748µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|   5.339316ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|    422.474µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|      92.78µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|     90.682µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|    367.547µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|    169.618µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:33:44 [D] [server.go:2081] |[42m 200 [0m|    473.485µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:33:45 [D] [server.go:2081] |[42m 200 [0m|     82.436µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|   1.511293ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|     93.107µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|    139.873µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|     67.082µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|   1.663334ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|    372.839µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:33:57 [D] [server.go:2081] |[42m 200 [0m|    463.732µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:33:58 [D] [server.go:2081] |[42m 200 [0m|     99.294µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|   3.601161ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    217.585µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|     61.609µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    117.337µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    150.429µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    383.362µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    361.563µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:35:05 [D] [server.go:2081] |[42m 200 [0m|    100.016µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:35:19 [D] [server.go:2081] |[42m 200 [0m|   2.543616ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|    150.406µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|     62.797µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|     63.933µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|    185.946µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|    362.914µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|     520.59µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:35:20 [D] [server.go:2081] |[42m 200 [0m|    272.791µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|   4.062832ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|    134.042µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|      90.88µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|    114.605µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|    152.311µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:37:33 [D] [server.go:2081] |[42m 200 [0m|    365.401µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:37:34 [D] [server.go:2081] |[42m 200 [0m|    674.893µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:37:34 [D] [server.go:2081] |[42m 200 [0m|     81.953µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|   6.293282ms|   match|[44m [0m GET     /addnodetree   r:/addnodetree
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|    277.011µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|     112.19µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|      74.26µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|    167.758µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|     378.27µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|    471.795µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:41:07 [D] [server.go:2081] |[42m 200 [0m|     87.856µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:43:24 [main.go:32] this is a message of http
+2016/09/23 10:43:24 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:43:24 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:43:24 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:43:24 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:43:24 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:43:24 [C] [proc.go:188] oh,crash
+2016/09/23 10:43:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:43:24 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:43:29 [main.go:32] this is a message of http
+2016/09/23 10:43:29 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:43:29 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:43:29 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:43:29 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:43:29 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:43:29 [C] [proc.go:188] oh,crash
+2016/09/23 10:43:29 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:43:29 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:43:48 [main.go:32] this is a message of http
+2016/09/23 10:43:48 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:43:48 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:43:48 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:43:48 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:43:48 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:43:48 [C] [proc.go:188] oh,crash
+2016/09/23 10:43:48 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:43:48 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:43:54 [main.go:32] this is a message of http
+2016/09/23 10:43:54 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:43:54 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:43:54 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:43:54 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:43:54 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:43:54 [C] [proc.go:188] oh,crash
+2016/09/23 10:43:54 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:43:54 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|  10.694903ms|   match|[44m [0m GET     /dragtree   r:/dragtree
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|   5.994392ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|    6.46994ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|    340.067µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|   1.107532ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|   3.633696ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|   3.952509ms|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:45:10 [D] [server.go:2081] |[42m 200 [0m|    352.436µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|   1.000545ms|   match|[44m [0m GET     /dragtree   r:/dragtree
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|     204.88µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|     102.91µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|     76.763µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|    286.041µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|    718.819µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:45:34 [D] [server.go:2081] |[42m 200 [0m|     550.89µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:45:35 [D] [server.go:2081] |[42m 200 [0m|    123.793µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|   4.363733ms|   match|[44m [0m GET     /dragtree   r:/dragtree
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|    159.724µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|    201.339µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|     72.934µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|    539.035µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 10:46:51 [D] [server.go:2081] |[42m 200 [0m|    483.197µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 10:46:52 [D] [server.go:2081] |[42m 200 [0m|    467.019µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 10:46:52 [D] [server.go:2081] |[42m 200 [0m|     77.866µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 10:59:43 [main.go:32] this is a message of http
+2016/09/23 10:59:43 [main.go:33] [ORM] this is a message of orm
+2016/09/23 10:59:43 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 10:59:43 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 10:59:43 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 10:59:43 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 10:59:43 [C] [proc.go:188] oh,crash
+2016/09/23 10:59:43 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 10:59:43 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:00:02 [main.go:32] this is a message of http
+2016/09/23 11:00:02 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:00:02 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:00:02 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:00:02 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:00:02 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:00:02 [C] [proc.go:188] oh,crash
+2016/09/23 11:00:02 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:00:02 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:00:09 [main.go:32] this is a message of http
+2016/09/23 11:00:09 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:00:09 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:00:09 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:00:09 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:00:09 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:00:09 [C] [proc.go:188] oh,crash
+2016/09/23 11:00:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:00:09 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:04:59 [main.go:32] this is a message of http
+2016/09/23 11:04:59 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:04:59 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:04:59 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:04:59 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:04:59 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:04:59 [C] [proc.go:188] oh,crash
+2016/09/23 11:04:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:04:59 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:05:58 [main.go:32] this is a message of http
+2016/09/23 11:05:58 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:05:58 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:05:58 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:05:58 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:05:58 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:05:58 [C] [proc.go:188] oh,crash
+2016/09/23 11:05:58 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:05:58 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:06:22 [main.go:32] this is a message of http
+2016/09/23 11:06:22 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:06:22 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:06:22 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:06:22 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:06:22 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:06:22 [C] [proc.go:188] oh,crash
+2016/09/23 11:06:22 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:06:22 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   9.863575ms|   match|[44m [0m GET     /diyloadtree   r:/diyloadtree
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   2.629041ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   3.458378ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   3.303283ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|    4.55264ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   6.295377ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 11:16:27 [D] [server.go:2081] |[42m 200 [0m|   1.101886ms|   match|[44m [0m GET     /static/css/themes/icons/tip.png
+2016/09/23 11:16:27 [D] [server.go:2081] |[43m 404 [0m|   2.693232ms| nomatch|[46m [0m POST    /diydata
+2016/09/23 11:17:05 [main.go:32] this is a message of http
+2016/09/23 11:17:05 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:17:05 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:17:05 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:17:05 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:17:05 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:17:05 [C] [proc.go:188] oh,crash
+2016/09/23 11:17:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:17:05 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   3.779126ms|   match|[44m [0m GET     /diyloadtree   r:/diyloadtree
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|    781.322µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   4.129497ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   4.017224ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   5.415712ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   5.916828ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|   1.119747ms|   match|[44m [0m GET     /static/css/themes/icons/tip.png
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|    569.635µs|   match|[46m [0m POST    /diydata   r:/diydata
+2016/09/23 11:17:47 [D] [server.go:2081] |[42m 200 [0m|    391.035µs|   match|[44m [0m GET     /static/css/themes/default/images/tree_icons.png
+2016/09/23 11:54:07 [main.go:32] this is a message of http
+2016/09/23 11:54:07 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:54:07 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:54:07 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:54:07 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:54:07 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:54:07 [C] [proc.go:188] oh,crash
+2016/09/23 11:54:07 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:54:07 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:54:11 [main.go:32] this is a message of http
+2016/09/23 11:54:11 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:54:11 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:54:11 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:54:11 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:54:11 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:54:11 [C] [proc.go:188] oh,crash
+2016/09/23 11:54:11 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:54:11 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:59:12 [main.go:32] this is a message of http
+2016/09/23 11:59:12 [main.go:33] [ORM] this is a message of orm
+2016/09/23 11:59:12 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 11:59:12 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 11:59:12 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 11:59:12 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 11:59:12 [C] [proc.go:188] oh,crash
+2016/09/23 11:59:12 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 11:59:12 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 11:59:21 [D] [server.go:2081] |[42m 200 [0m|   2.457549ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/23 11:59:23 [D] [server.go:2081] |[43m 404 [0m|   1.211726ms| nomatch|[46m [0m POST    /form1_proc.php
+2016/09/23 11:59:23 [D] [server.go:2081] |[47m 304 [0m|    348.474µs|   match|[44m [0m GET     /static/css/themes/default/images/messager_icons.png
+2016/09/23 12:01:13 [D] [server.go:2081] |[42m 200 [0m|   1.054464ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/23 12:01:13 [D] [server.go:2081] |[47m 304 [0m|   1.457904ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 12:01:13 [D] [server.go:2081] |[47m 304 [0m|   2.946997ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 12:01:13 [D] [server.go:2081] |[47m 304 [0m|   3.161343ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 12:01:13 [D] [server.go:2081] |[47m 304 [0m|   3.733054ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 12:01:13 [D] [server.go:2081] |[47m 304 [0m|   6.148689ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 12:03:30 [main.go:32] this is a message of http
+2016/09/23 12:03:30 [main.go:33] [ORM] this is a message of orm
+2016/09/23 12:03:30 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 12:03:30 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 12:03:30 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 12:03:30 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 12:03:30 [C] [proc.go:188] oh,crash
+2016/09/23 12:03:30 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 12:03:30 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 12:03:37 [main.go:32] this is a message of http
+2016/09/23 12:03:37 [main.go:33] [ORM] this is a message of orm
+2016/09/23 12:03:37 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 12:03:37 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 12:03:37 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 12:03:37 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 12:03:37 [C] [proc.go:188] oh,crash
+2016/09/23 12:03:37 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 12:03:37 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 12:04:08 [main.go:32] this is a message of http
+2016/09/23 12:04:08 [main.go:33] [ORM] this is a message of orm
+2016/09/23 12:04:08 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 12:04:08 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 12:04:08 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 12:04:08 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 12:04:08 [C] [proc.go:188] oh,crash
+2016/09/23 12:04:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 12:04:08 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 14:08:31 [main.go:32] this is a message of http
+2016/09/23 14:08:31 [main.go:33] [ORM] this is a message of orm
+2016/09/23 14:08:31 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 14:08:31 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 14:08:31 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 14:08:31 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 14:08:31 [C] [proc.go:188] oh,crash
+2016/09/23 14:08:31 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 14:08:31 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 14:14:19 [main.go:32] this is a message of http
+2016/09/23 14:14:19 [main.go:33] [ORM] this is a message of orm
+2016/09/23 14:14:19 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 14:14:19 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 14:14:19 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 14:14:19 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 14:14:19 [C] [proc.go:188] oh,crash
+2016/09/23 14:14:19 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 14:14:19 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 14:16:46 [main.go:32] this is a message of http
+2016/09/23 14:16:46 [main.go:33] [ORM] this is a message of orm
+2016/09/23 14:16:46 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 14:16:46 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 14:16:46 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 14:16:46 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 14:16:46 [C] [proc.go:188] oh,crash
+2016/09/23 14:16:46 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 14:16:46 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 14:18:51 [D] [server.go:2081] |[42m 200 [0m|   1.933149ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/23 14:18:51 [D] [server.go:2081] |[47m 304 [0m|   1.459073ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 14:18:51 [D] [server.go:2081] |[47m 304 [0m|    367.051µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 14:18:51 [D] [server.go:2081] |[47m 304 [0m|   1.180242ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 14:18:51 [D] [server.go:2081] |[47m 304 [0m|   4.772004ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 14:18:51 [D] [server.go:2081] |[47m 304 [0m|   5.457045ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] the request url is  /formajaxdata
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:formcontroller/formajaxdata.tpl
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/23 14:18:55 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/23 14:19:21 [D] [server.go:2081] |[42m 200 [0m|   1.545121ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/23 14:19:21 [D] [server.go:2081] |[47m 304 [0m|     59.767µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 14:19:21 [D] [server.go:2081] |[47m 304 [0m|     82.177µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 14:19:21 [D] [server.go:2081] |[47m 304 [0m|     47.904µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 14:19:21 [D] [server.go:2081] |[47m 304 [0m|     32.164µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 14:19:21 [D] [server.go:2081] |[47m 304 [0m|     88.479µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 14:19:23 [main.go:32] this is a message of http
+2016/09/23 14:19:23 [main.go:33] [ORM] this is a message of orm
+2016/09/23 14:19:23 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 14:19:23 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 14:19:23 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 14:19:23 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 14:19:23 [C] [proc.go:188] oh,crash
+2016/09/23 14:19:23 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 14:19:23 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 14:19:35 [D] [server.go:2081] |[42m 200 [0m|   1.223859ms|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/23 14:19:43 [D] [server.go:2081] |[42m 200 [0m|     341.87µs|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/23 15:00:19 [D] [server.go:2081] |[42m 200 [0m|   1.292167ms|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/23 15:53:51 [main.go:32] this is a message of http
+2016/09/23 15:53:51 [main.go:33] [ORM] this is a message of orm
+2016/09/23 15:53:51 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 15:53:51 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 15:53:51 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 15:53:51 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 15:53:51 [C] [proc.go:188] oh,crash
+2016/09/23 15:53:51 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 15:53:51 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 15:54:08 [main.go:32] this is a message of http
+2016/09/23 15:54:08 [main.go:33] [ORM] this is a message of orm
+2016/09/23 15:54:08 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 15:54:08 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 15:54:08 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 15:54:08 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 15:54:08 [C] [proc.go:188] oh,crash
+2016/09/23 15:54:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 15:54:08 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 15:54:11 [main.go:32] this is a message of http
+2016/09/23 15:54:11 [main.go:33] [ORM] this is a message of orm
+2016/09/23 15:54:11 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 15:54:11 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 15:54:11 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 15:54:11 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 15:54:11 [C] [proc.go:188] oh,crash
+2016/09/23 15:54:11 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 15:54:11 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 15:59:19 [D] [server.go:2081] |[42m 200 [0m|  11.543788ms|   match|[44m [0m GET     /formatdata   r:/formatdata
+2016/09/23 15:59:19 [D] [server.go:2081] |[47m 304 [0m|   1.171699ms|   match|[44m [0m GET     /static/css/themes/icons/cut.png
+2016/09/23 15:59:19 [D] [server.go:2081] |[47m 304 [0m|    837.724µs|   match|[44m [0m GET     /static/css/themes/default/images/loading.gif
+2016/09/23 15:59:19 [D] [server.go:2081] |[42m 200 [0m|   3.494883ms|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 15:59:35 [D] [server.go:2081] |[42m 200 [0m|   2.108555ms|   match|[44m [0m GET     /validateform   r:/validateform
+2016/09/23 16:00:52 [D] [server.go:2081] |[42m 200 [0m|   4.607064ms|   match|[44m [0m GET     /validateform   r:/validateform
+2016/09/23 16:00:52 [D] [server.go:2081] |[47m 304 [0m|   4.354468ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 16:00:52 [D] [server.go:2081] |[47m 304 [0m|    882.903µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 16:00:52 [D] [server.go:2081] |[47m 304 [0m|   1.297636ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 16:00:52 [D] [server.go:2081] |[47m 304 [0m|   1.516606ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 16:00:52 [D] [server.go:2081] |[47m 304 [0m|   3.463481ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 16:01:06 [D] [server.go:2081] |[42m 200 [0m|   2.498381ms|   match|[44m [0m GET     /validateform   r:/validateform
+2016/09/23 16:01:06 [D] [server.go:2081] |[47m 304 [0m|     57.504µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 16:01:06 [D] [server.go:2081] |[47m 304 [0m|     29.521µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 16:01:06 [D] [server.go:2081] |[47m 304 [0m|     52.778µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 16:01:06 [D] [server.go:2081] |[47m 304 [0m|     94.813µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 16:01:06 [D] [server.go:2081] |[47m 304 [0m|     93.154µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 16:05:43 [D] [server.go:2081] |[42m 200 [0m|   1.094017ms|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/23 16:55:15 [main.go:32] this is a message of http
+2016/09/23 16:55:15 [main.go:33] [ORM] this is a message of orm
+2016/09/23 16:55:15 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 16:55:15 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 16:55:15 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 16:55:15 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 16:55:15 [C] [proc.go:188] oh,crash
+2016/09/23 16:55:15 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 16:55:15 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:03:02 [main.go:32] this is a message of http
+2016/09/23 17:03:02 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:03:02 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:03:02 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:03:02 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:03:02 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:03:02 [C] [proc.go:188] oh,crash
+2016/09/23 17:03:02 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:03:02 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:03:04 [main.go:32] this is a message of http
+2016/09/23 17:03:04 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:03:04 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:03:04 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:03:04 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:03:04 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:03:04 [C] [proc.go:188] oh,crash
+2016/09/23 17:03:04 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:03:04 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:03:08 [main.go:32] this is a message of http
+2016/09/23 17:03:08 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:03:08 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:03:08 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:03:08 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:03:08 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:03:08 [C] [proc.go:188] oh,crash
+2016/09/23 17:03:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:03:08 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:03:24 [D] [server.go:2081] |[43m 404 [0m|   3.261156ms| nomatch|[44m [0m GET     /combortreeform
+2016/09/23 17:03:42 [D] [server.go:2081] |[42m 200 [0m|   2.436776ms|   match|[44m [0m GET     /combotreeform   r:/combotreeform
+2016/09/23 17:03:42 [D] [server.go:2081] |[47m 304 [0m|   2.012164ms|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:03:42 [D] [server.go:2081] |[43m 404 [0m|   1.172053ms| nomatch|[46m [0m POST    /data/city_data.json
+2016/09/23 17:13:21 [D] [server.go:2081] |[42m 200 [0m|   5.036271ms|   match|[44m [0m GET     /combotreeform   r:/combotreeform
+2016/09/23 17:13:21 [D] [server.go:2081] |[47m 304 [0m|    1.43482ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:13:21 [D] [server.go:2081] |[47m 304 [0m|    755.079µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:13:21 [D] [server.go:2081] |[47m 304 [0m|    730.906µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:13:21 [D] [server.go:2081] |[47m 304 [0m|   5.083228ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:13:21 [D] [server.go:2081] |[47m 304 [0m|   5.614776ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:13:21 [D] [server.go:2081] |[42m 200 [0m|   2.102184ms|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 17:15:44 [D] [server.go:2081] |[42m 200 [0m|   2.288132ms|   match|[44m [0m GET     /combotreeform   r:/combotreeform
+2016/09/23 17:15:44 [D] [server.go:2081] |[47m 304 [0m|     56.251µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:15:44 [D] [server.go:2081] |[47m 304 [0m|     55.484µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:15:44 [D] [server.go:2081] |[47m 304 [0m|     52.969µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:15:44 [D] [server.go:2081] |[47m 304 [0m|     53.858µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:15:44 [D] [server.go:2081] |[47m 304 [0m|     29.028µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:15:44 [D] [server.go:2081] |[42m 200 [0m|    366.845µs|   match|[46m [0m POST    /treedata   r:/treedata
+2016/09/23 17:19:56 [main.go:32] this is a message of http
+2016/09/23 17:19:56 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:19:56 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:19:56 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:19:56 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:19:56 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:19:56 [C] [proc.go:188] oh,crash
+2016/09/23 17:19:56 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:19:56 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:20:02 [main.go:32] this is a message of http
+2016/09/23 17:20:02 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:20:02 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:20:02 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:20:02 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:20:02 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:20:02 [C] [proc.go:188] oh,crash
+2016/09/23 17:20:02 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:20:02 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:20:24 [main.go:32] this is a message of http
+2016/09/23 17:20:24 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:20:24 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:20:24 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:20:24 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:20:24 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:20:24 [C] [proc.go:188] oh,crash
+2016/09/23 17:20:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:20:24 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:21:38 [main.go:32] this is a message of http
+2016/09/23 17:21:38 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:21:38 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:21:38 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:21:38 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:21:38 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:21:38 [C] [proc.go:188] oh,crash
+2016/09/23 17:21:38 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:21:38 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:25:22 [main.go:32] this is a message of http
+2016/09/23 17:25:22 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:25:22 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:25:22 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:25:22 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:25:22 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:25:22 [C] [proc.go:188] oh,crash
+2016/09/23 17:25:22 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:25:22 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:32:52 [main.go:32] this is a message of http
+2016/09/23 17:32:52 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:32:52 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:32:52 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:32:52 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:32:52 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:32:52 [C] [proc.go:188] oh,crash
+2016/09/23 17:32:52 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:32:52 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:37:07 [main.go:32] this is a message of http
+2016/09/23 17:37:07 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:37:07 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:37:07 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:37:07 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:37:07 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:37:07 [C] [proc.go:188] oh,crash
+2016/09/23 17:37:07 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:37:07 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:37:40 [main.go:32] this is a message of http
+2016/09/23 17:37:40 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:37:40 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:37:40 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:37:40 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:37:40 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:37:40 [C] [proc.go:188] oh,crash
+2016/09/23 17:37:40 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:37:40 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:37:53 [main.go:32] this is a message of http
+2016/09/23 17:37:53 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:37:53 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:37:53 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:37:53 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:37:53 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:37:53 [C] [proc.go:188] oh,crash
+2016/09/23 17:37:53 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:37:53 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:39:11 [main.go:32] this is a message of http
+2016/09/23 17:39:11 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:39:11 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:39:11 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:39:11 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:39:11 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:39:11 [C] [proc.go:188] oh,crash
+2016/09/23 17:39:11 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:39:11 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:39:26 [main.go:32] this is a message of http
+2016/09/23 17:39:26 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:39:26 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:39:26 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:39:26 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:39:26 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:39:26 [C] [proc.go:188] oh,crash
+2016/09/23 17:39:26 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:39:26 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:39:32 [main.go:32] this is a message of http
+2016/09/23 17:39:32 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:39:32 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:39:32 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:39:32 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:39:32 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:39:32 [C] [proc.go:188] oh,crash
+2016/09/23 17:39:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:39:32 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:39:58 [main.go:32] this is a message of http
+2016/09/23 17:39:58 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:39:58 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:39:58 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:39:58 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:39:58 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:39:58 [C] [proc.go:188] oh,crash
+2016/09/23 17:39:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:39:59 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:02 [main.go:32] this is a message of http
+2016/09/23 17:40:02 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:02 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:02 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:02 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:02 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:02 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:02 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:02 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:05 [main.go:32] this is a message of http
+2016/09/23 17:40:05 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:05 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:05 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:05 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:05 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:05 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:05 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:09 [main.go:32] this is a message of http
+2016/09/23 17:40:09 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:09 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:09 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:09 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:09 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:09 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:09 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:15 [main.go:32] this is a message of http
+2016/09/23 17:40:15 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:15 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:15 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:15 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:15 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:15 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:15 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:15 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:22 [main.go:32] this is a message of http
+2016/09/23 17:40:22 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:22 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:22 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:22 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:22 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:22 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:22 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:22 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:28 [main.go:32] this is a message of http
+2016/09/23 17:40:28 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:28 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:28 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:28 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:28 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:28 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:28 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:28 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:37 [main.go:32] this is a message of http
+2016/09/23 17:40:37 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:37 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:37 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:37 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:37 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:37 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:37 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:37 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:40:41 [main.go:32] this is a message of http
+2016/09/23 17:40:41 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:40:41 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:40:41 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:40:41 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:40:41 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:40:41 [C] [proc.go:188] oh,crash
+2016/09/23 17:40:41 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:40:41 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:41:06 [main.go:32] this is a message of http
+2016/09/23 17:41:06 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:41:06 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:41:06 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:41:06 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:41:06 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:41:06 [C] [proc.go:188] oh,crash
+2016/09/23 17:41:06 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:41:06 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:41:13 [main.go:32] this is a message of http
+2016/09/23 17:41:13 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:41:13 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:41:13 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:41:13 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:41:13 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:41:13 [C] [proc.go:188] oh,crash
+2016/09/23 17:41:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:41:13 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:41:53 [D] [server.go:2081] |[42m 200 [0m|   1.834151ms|   match|[44m [0m GET     /formatdata   r:/formatdata
+2016/09/23 17:41:53 [D] [server.go:2081] |[42m 200 [0m|   4.288126ms|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 17:41:58 [D] [server.go:2081] |[43m 404 [0m|     1.3943ms| nomatch|[44m [0m GET     /formatform
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] the request url is  /formatcomboform
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:formatcomboform/.html
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/23 17:42:10 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/23 17:42:55 [main.go:32] this is a message of http
+2016/09/23 17:42:55 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:42:55 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:42:55 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:42:55 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:42:55 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:42:55 [C] [proc.go:188] oh,crash
+2016/09/23 17:42:55 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:42:55 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] the request url is  /formatcomboform
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:form/formatcomboform/.html
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/23 17:42:56 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/23 17:42:57 [main.go:32] this is a message of http
+2016/09/23 17:42:57 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:42:57 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:42:57 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:42:57 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:42:57 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:42:57 [C] [proc.go:188] oh,crash
+2016/09/23 17:42:57 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:42:57 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:42:58 [D] [server.go:2081] |[42m 200 [0m|   1.474974ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:42:58 [D] [server.go:2081] |[47m 304 [0m|   1.112534ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:42:58 [D] [server.go:2081] |[47m 304 [0m|   1.776717ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:42:58 [D] [server.go:2081] |[47m 304 [0m|    878.833µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:42:58 [D] [server.go:2081] |[47m 304 [0m|   2.950971ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:42:58 [D] [server.go:2081] |[47m 304 [0m|   4.069934ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:42:58 [D] [server.go:2081] |[42m 200 [0m|    969.141µs|   match|[46m [0m POST    /formatdata   r:/formatdata
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|    992.878µs|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|    674.587µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|    1.05125ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|    980.139µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|    3.20738ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|  12.428439ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|   1.192802ms|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:43:23 [D] [server.go:2081] |[42m 200 [0m|   2.252975ms|   match|[46m [0m POST    /formatdata   r:/formatdata
+2016/09/23 17:44:35 [main.go:32] this is a message of http
+2016/09/23 17:44:35 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:44:35 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:44:35 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:44:35 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:44:35 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:44:35 [C] [proc.go:188] oh,crash
+2016/09/23 17:44:35 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:44:35 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|   4.497968ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|    841.237µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|    409.214µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|    625.266µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|   1.184813ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:44:35 [D] [server.go:2081] |[42m 200 [0m|   2.642739ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:44:36 [D] [server.go:2081] |[42m 200 [0m|   1.027216ms|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:44:36 [D] [server.go:2081] |[42m 200 [0m|   1.383157ms|   match|[46m [0m POST    /formatdata   r:/formatdata
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|   2.171834ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|    214.096µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|     206.52µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|      54.37µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|      71.12µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|    360.674µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|    145.522µs|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:44:37 [D] [server.go:2081] |[42m 200 [0m|   1.364276ms|   match|[46m [0m POST    /formatdata   r:/formatdata
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|   2.166577ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|     79.044µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|     54.793µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|    103.284µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|    275.065µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:45:01 [D] [server.go:2081] |[42m 200 [0m|    753.385µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:45:02 [D] [server.go:2081] |[42m 200 [0m|     75.716µs|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:45:02 [D] [server.go:2081] |[42m 200 [0m|   1.077366ms|   match|[46m [0m POST    /formatdata   r:/formatdata
+2016/09/23 17:50:34 [main.go:32] this is a message of http
+2016/09/23 17:50:34 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:50:34 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:50:34 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:50:34 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:50:34 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:50:34 [C] [proc.go:188] oh,crash
+2016/09/23 17:50:34 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:50:34 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:50:40 [main.go:32] this is a message of http
+2016/09/23 17:50:40 [main.go:33] [ORM] this is a message of orm
+2016/09/23 17:50:40 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 17:50:40 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 17:50:40 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 17:50:40 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 17:50:40 [C] [proc.go:188] oh,crash
+2016/09/23 17:50:40 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 17:50:40 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 17:50:42 [D] [server.go:2081] |[42m 200 [0m|    742.163µs|   match|[44m [0m GET     /combotdata   r:/combotdata
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|   3.006256ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|    2.76304ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|   2.630488ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|    842.405µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|   1.214285ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 17:50:56 [D] [server.go:2081] |[42m 200 [0m|    4.51962ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   1.057769ms|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   1.585366ms|   match|[46m [0m POST    /combotdata   r:/combotdata
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   1.181551ms|   match|[44m [0m GET     /static/img/doc.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|    349.439µs|   match|[44m [0m GET     /static/img/xls.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|    588.113µs|   match|[44m [0m GET     /static/img/zip.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   3.744085ms|   match|[44m [0m GET     /static/img/css.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   4.394197ms|   match|[44m [0m GET     /static/img/txt.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|   3.911226ms|   match|[44m [0m GET     /static/img/html.png
+2016/09/23 17:50:57 [D] [server.go:2081] |[42m 200 [0m|    409.369µs|   match|[44m [0m GET     /static/img/ppt.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|   3.752857ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|   1.411414ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    279.039µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    484.335µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    100.939µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    3.19311ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|     100.06µs|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    615.184µs|   match|[46m [0m POST    /combotdata   r:/combotdata
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|   1.086171ms|   match|[44m [0m GET     /static/img/doc.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|      97.09µs|   match|[44m [0m GET     /static/img/xls.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|     58.197µs|   match|[44m [0m GET     /static/img/zip.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|     93.784µs|   match|[44m [0m GET     /static/img/html.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|     72.259µs|   match|[44m [0m GET     /static/img/css.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|    111.611µs|   match|[44m [0m GET     /static/img/txt.png
+2016/09/23 18:06:57 [D] [server.go:2081] |[42m 200 [0m|     93.451µs|   match|[44m [0m GET     /static/img/ppt.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|   7.316551ms|   match|[44m [0m GET     /formatcomboform   r:/formatcomboform
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    608.245µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    148.553µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    125.541µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|   1.704166ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|   1.797056ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    142.841µs|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|   2.077176ms|   match|[46m [0m POST    /combotdata   r:/combotdata
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    137.671µs|   match|[44m [0m GET     /static/img/zip.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|     99.585µs|   match|[44m [0m GET     /static/img/xls.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    322.728µs|   match|[44m [0m GET     /static/img/doc.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    217.728µs|   match|[44m [0m GET     /static/img/html.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    176.003µs|   match|[44m [0m GET     /static/img/txt.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    155.664µs|   match|[44m [0m GET     /static/img/css.png
+2016/09/23 22:19:11 [D] [server.go:2081] |[42m 200 [0m|    158.984µs|   match|[44m [0m GET     /static/img/ppt.png
+2016/09/23 22:26:27 [main.go:32] this is a message of http
+2016/09/23 22:26:27 [main.go:33] [ORM] this is a message of orm
+2016/09/23 22:26:27 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 22:26:27 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 22:26:27 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 22:26:27 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 22:26:27 [C] [proc.go:188] oh,crash
+2016/09/23 22:26:27 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 22:26:27 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 22:27:02 [main.go:32] this is a message of http
+2016/09/23 22:27:02 [main.go:33] [ORM] this is a message of orm
+2016/09/23 22:27:02 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 22:27:02 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 22:27:02 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 22:27:02 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 22:27:02 [C] [proc.go:188] oh,crash
+2016/09/23 22:27:02 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 22:27:02 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 22:27:09 [main.go:32] this is a message of http
+2016/09/23 22:27:09 [main.go:33] [ORM] this is a message of orm
+2016/09/23 22:27:09 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/23 22:27:09 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/23 22:27:09 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/23 22:27:09 [E] [proc.go:188] 1024 is a very good game
+2016/09/23 22:27:09 [C] [proc.go:188] oh,crash
+2016/09/23 22:27:09 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/23 22:27:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/23 22:29:35 [D] [server.go:2081] |[42m 200 [0m|  16.095872ms|   match|[44m [0m GET     /combogridform   r:/combogridform
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|   7.064417ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|   5.013521ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|   5.603079ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|   5.980185ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|    6.47899ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|    385.461µs|   match|[44m [0m GET     /static/css/themes/default/images/combo_arrow.png
+2016/09/23 22:29:36 [D] [server.go:2081] |[42m 200 [0m|   3.761236ms|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 22:29:42 [D] [server.go:2081] |[42m 200 [0m|    893.605µs|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 22:29:44 [D] [server.go:2081] |[42m 200 [0m|   1.317644ms|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 22:30:35 [D] [server.go:2081] |[42m 200 [0m|   3.973162ms|   match|[46m [0m POST    /getdata   r:/getdata
+2016/09/23 22:30:37 [D] [server.go:2081] |[42m 200 [0m|    690.427µs|   match|[46m [0m POST    /getdata   r:/getdata

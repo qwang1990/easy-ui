@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<h2>DataGrid Footer Demo</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+    <div>The summary informations can be displayed in footer rows.</div>
+</div>
+
+<table id="tt" title="DataGrid" class="easyui-datagrid" style="width:700px;height:250px"
+       url="/footgrid"
+       fitColumns="true" rownumbers="true" showFooter="true">
+    <thead>
+    <tr>
+        <th field="Name" width="80">Product Name</th>
+        <th field="Price" width="40" align="right">Unit Price</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#ff').form({
+                success:function(data){
+                    $.messager.alert('Info', data, 'info');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div style="width:230px;background:#fafafa;padding:10px;">
+    <div style="padding:3px 2px;border-bottom:1px solid #ccc">Ajax Form</div>
+    <form id="ff" action="/formajaxdata" method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input name="name" type="text"/></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input name="email" type="text"/></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input name="phone" type="text"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    </form>
+</div></div>
+
+
+</body>
+
+</html>

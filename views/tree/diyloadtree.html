@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        function convert(rows){
+            function exists(rows, parentId){
+                for(var i=0; i<rows.length; i++){
+                    if (rows[i].id == parentId) return true;
+                }
+                return false;
+            }
+
+            var nodes = [];
+            // get the top level nodes
+            for(var i=0; i<rows.length; i++){
+                var row = rows[i];
+                if (!exists(rows, row.parentId)){
+                    nodes.push({
+                        id:row.id,
+                        text:row.name
+                    });
+                }
+            }
+
+            var toDo = [];
+            for(var i=0; i<nodes.length; i++){
+                toDo.push(nodes[i]);
+            }
+            while(toDo.length){
+                var node = toDo.shift();	// the parent node
+                // get the children nodes
+                for(var i=0; i<rows.length; i++){
+                    var row = rows[i];
+                    if (row.parentId == node.id){
+                        var child = {id:row.id,text:row.name};
+                        if (node.children){
+                            node.children.push(child);
+                        } else {
+                            node.children = [child];
+                        }
+                        toDo.push(child);
+                    }
+                }
+            }
+            return nodes;
+        }
+
+        $(function(){
+            $('#tt').tree({
+                url: '/diydata',
+                loadFilter: function(rows){
+                    return convert(rows);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<h2>Load parent/child nodes into tree</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+    <div>The food categores are load from adjacency list.</div>
+</div>
+
+<ul id="tt"></ul>
+
+
+</body>
+
+</html>

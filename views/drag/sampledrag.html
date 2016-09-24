@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+</head>
+
+<div id="dd1" class="dd-demo" style="color: #0b6ac6;">aaa</div>
+<div id="dd2" class="dd-demo" style="color: #00B83F;">bbb</div>
+<div id="dd3" class="dd-demo" style="color: #c7254e;">ccc</div>
+
+<script>
+    $('#dd1').draggable();
+    $('#dd2').draggable({
+        proxy:'clone'
+    });
+    $('#dd3').draggable({
+        proxy:function(source){
+            var p = $('<div class="proxy">proxy</div>');
+            p.appendTo('body');
+            return p;
+        }
+    });
+</script>
+
+</html>

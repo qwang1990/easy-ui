@@ -1,0 +1,110 @@
+2016/09/12 09:53:28 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/12 09:56:39 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:51:59 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:52:43 [D] [server.go:2081] |[43m 404 [0m|    817.032µs| nomatch|[44m [0m GET     /favicon.ico
+2016/09/16 10:56:53 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:57:08 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:57:31 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:59:10 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 10:59:16 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:00:23 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:01:00 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:01:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:02:45 [D] [server.go:2081] |[42m 200 [0m|  10.448228ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:03:17 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:03:58 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:03:58 [D] [server.go:2081] |[42m 200 [0m|    934.067µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:04:00 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:04:00 [D] [server.go:2081] |[42m 200 [0m|    546.592µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:04:14 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:04:14 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:04:19 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] the request url is  /viewtest
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:viewtest.tpl
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/16 11:04:19 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/16 11:04:51 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] the request url is  /viewtest
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:viewtest.tpl
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/16 11:04:51 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/16 11:06:31 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:8: unexpected bad character U+003D '=' in if
+2016/09/16 11:06:31 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:06:54 [D] [server.go:2081] |[42m 200 [0m|    982.557µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:13:18 [D] [server.go:2081] |[42m 200 [0m|   2.817795ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:13:29 [D] [server.go:2081] |[42m 200 [0m|   1.652154ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:30:06 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:30:06 [D] [server.go:2081] |[42m 200 [0m|     981.02µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:30:08 [D] [server.go:2081] |[42m 200 [0m|    659.677µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:30:26 [D] [server.go:2081] |[42m 200 [0m|    902.238µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:30:27 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:30:27 [D] [server.go:2081] |[42m 200 [0m|   1.036557ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:31:04 [D] [server.go:2081] |[42m 200 [0m|    647.673µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:31:05 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:31:06 [D] [server.go:2081] |[42m 200 [0m|    955.257µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:31:10 [D] [server.go:2081] |[42m 200 [0m|    583.697µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:33:15 [D] [server.go:2081] |[42m 200 [0m|    615.447µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:38:57 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:39:04 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 11:39:27 [D] [server.go:2081] |[42m 200 [0m|   1.165933ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:39:35 [D] [server.go:2081] |[42m 200 [0m|     821.67µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:42:09 [D] [server.go:2081] |[42m 200 [0m|    728.892µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:56:52 [D] [template.go:60] template Execute err: template: viewtest.tpl:9:9: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:56:52 [E] [server.go:2081] template: viewtest.tpl:9:9: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:56:52 [D] [server.go:2081] |[42m 200 [0m|   3.122419ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:56:54 [D] [template.go:60] template Execute err: template: viewtest.tpl:9:9: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:56:54 [E] [server.go:2081] template: viewtest.tpl:9:9: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:56:54 [D] [server.go:2081] |[42m 200 [0m|   5.630202ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:08 [D] [template.go:60] template Execute err: template: viewtest.tpl:9:10: executing "viewtest.tpl" at <$.Page>: invalid value; expected string
+2016/09/16 11:57:08 [E] [server.go:2081] template: viewtest.tpl:9:10: executing "viewtest.tpl" at <$.Page>: invalid value; expected string
+2016/09/16 11:57:08 [D] [server.go:2081] |[42m 200 [0m|   1.606311ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:09 [D] [template.go:60] template Execute err: template: viewtest.tpl:9:10: executing "viewtest.tpl" at <$.Page>: invalid value; expected string
+2016/09/16 11:57:09 [E] [server.go:2081] template: viewtest.tpl:9:10: executing "viewtest.tpl" at <$.Page>: invalid value; expected string
+2016/09/16 11:57:09 [D] [server.go:2081] |[42m 200 [0m|    724.557µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:23 [D] [server.go:2081] |[42m 200 [0m|    704.834µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:41 [D] [server.go:2081] |[42m 200 [0m|    729.446µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:43 [D] [server.go:2081] |[42m 200 [0m|    792.027µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:57:49 [D] [template.go:60] template Execute err: template: viewtest.tpl:10:2: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:57:49 [E] [server.go:2081] template: viewtest.tpl:10:2: executing "viewtest.tpl" at <.Page>: can't evaluate field Page in type string
+2016/09/16 11:57:49 [D] [server.go:2081] |[42m 200 [0m|    690.611µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 11:58:10 [D] [server.go:2081] |[42m 200 [0m|    775.296µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 12:00:27 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 12:00:43 [D] [server.go:2081] |[42m 200 [0m|   1.082348ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 12:01:46 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 12:02:01 [D] [server.go:2081] |[42m 200 [0m|   1.168343ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 12:02:43 [D] [server.go:2081] |[42m 200 [0m|    757.072µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 21:59:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 21:59:32 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 21:59:50 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 21:59:53 [D] [server.go:2081] |[42m 200 [0m|   1.560092ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:02:56 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:55: unrecognized character in action: U+201C '“'
+2016/09/16 22:02:56 [D] [server.go:2081] |[42m 200 [0m|   2.097019ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:02:58 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:55: unrecognized character in action: U+201C '“'
+2016/09/16 22:02:58 [D] [server.go:2081] |[42m 200 [0m|    812.867µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:03:00 [D] [template.go:187] parse template err: viewtest.tpl template: viewtest.tpl:55: unrecognized character in action: U+201C '“'
+2016/09/16 22:03:00 [D] [server.go:2081] |[42m 200 [0m|     868.19µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:03:16 [D] [template.go:60] template Execute err: template: viewtest.tpl:55:13: executing "viewtest.tpl" at <.Time>: invalid value; expected time.Time
+2016/09/16 22:03:16 [E] [server.go:2081] template: viewtest.tpl:55:13: executing "viewtest.tpl" at <.Time>: invalid value; expected time.Time
+2016/09/16 22:03:16 [D] [server.go:2081] |[42m 200 [0m|    808.774µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:03:18 [D] [template.go:60] template Execute err: template: viewtest.tpl:55:13: executing "viewtest.tpl" at <.Time>: invalid value; expected time.Time
+2016/09/16 22:03:18 [E] [server.go:2081] template: viewtest.tpl:55:13: executing "viewtest.tpl" at <.Time>: invalid value; expected time.Time
+2016/09/16 22:03:18 [D] [server.go:2081] |[42m 200 [0m|    854.438µs|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:03:54 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/16 22:03:54 [D] [server.go:2081] |[42m 200 [0m|   1.211679ms|   match|[44m [0m GET     /viewtest   r:/viewtest
+2016/09/16 22:04:25 [D] [server.go:2081] |[42m 200 [0m|   4.589846ms|   match|[44m [0m GET     /viewtest   r:/viewtest

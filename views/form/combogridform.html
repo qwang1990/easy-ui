@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#cg').combogrid({
+                panelWidth:500,
+                url: '/getdata',
+                idField:'Itemid',
+                textField:'Productid',
+                mode:'remote',
+                fitColumns:true,
+                columns:[[
+                    {field:'Itemid',title:'Item ID',width:60},
+                    {field:'Productid',title:'Product ID',align:'right',width:80},
+                    {field:'Listprice',title:'List Price',align:'right',width:60},
+                    {field:'Unitcost',title:'Unit Cost',align:'right',width:60},
+                    {field:'Attr1',title:'Attribute',width:150},
+                    {field:'Status',title:'Stauts',align:'center',width:60}
+                ]]
+            });
+            $("input[name='mode']").change(function(){
+                var mode = $(this).val();
+                $('#cg').combogrid({
+                    mode: mode
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<h1>Filter ComboGrid Demo</h1>
+<div style="margin-bottom:10px">
+    <span>Filter Mode:</span>
+    <input name="mode" type="radio" value="local">local
+    <input name="mode" type="radio" value="remote" checked="true">remote
+</div>
+<input id="cg" style="width:150px"></input>
+
+</body>
+
+</html>

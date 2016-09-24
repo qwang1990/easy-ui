@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+
+    </script>
+</head>
+<body>
+<h1>Dialog Window</h1>
+<div id="dd" class="easyui-dialog" style="padding:5px;width:400px;height:200px;"
+     title="My Dialog" iconCls="icon-ok" resizable="true"
+     toolbar="#dlg-toolbar" buttons="#dlg-buttons">
+    Dialog Content.
+</div>
+<div id="dlg-toolbar">
+
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+        <tr>
+            <td>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true">Edit</a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-help" plain="true">Help</a>
+            </td>
+            <td style="text-align:right">
+                <input></input><a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true"></a>
+            </td>
+        </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" style="width:100%">
+        <tr>
+            <td>
+                <img src="/static/img/email.gif"/>
+            </td>
+            <td style="text-align:right">
+                <a href="#" class="easyui-linkbutton" iconCls="icon-save" onclick="javascript:alert('save')">Save</a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dd').dialog('close')">Close</a>
+            </td>
+        </tr>
+    </table>
+
+    <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:alert('Add')">Add</a>
+    <a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="javascript:alert('Save')">Save</a>
+</div>
+<div id="dlg-buttons">
+    <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="javascript:alert('Ok')">Ok</a>
+    <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dd').dialog('close')">Cancel</a>
+</div>
+</body>
+
+</html>

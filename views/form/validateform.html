@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#ff').form({
+                url:'/formajaxdata',
+                onSubmit:function(){
+                    return $(this).form('validate');
+                },
+                success:function(data){
+                    $.messager.alert('Info', data, 'info');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div style="width:230px;background:#fafafa;padding:10px;">
+    <div style="padding:3px 2px;border-bottom:1px solid #ccc">Form Validation</div>
+    <form id="ff" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input class="easyui-validatebox" type="text" name="name" required="true"></input>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input class="easyui-validatebox" type="text" name="email" required="true" validType="email"></input>
+        </div>
+        <div>
+            <label for="subject">Subject:</label>
+            <input class="easyui-validatebox" type="text" name="subject" required="true"></input>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="message" style="height:60px;"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div></div>
+
+
+</body>
+
+</html>

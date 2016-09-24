@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#tt').datagrid({
+                columns:[[
+                    {field:'Itemid',title:'Item ID',width:80},
+                    {field:'Productid',title:'Product ID',width:80},
+                    {field:'Attr1',title:'Attribute',width:200},
+                    {field:'Status',title:'Status',width:80}
+                ]]
+            });
+        });
+        function changecolumn(){
+            $('#tt').datagrid({
+                columns:[[
+                    {field:'Itemid',title:'Item ID',width:80},
+                    {field:'Productid',title:'Product ID',width:80},
+                    {field:'Listprice',title:'List Price',width:80,align:'right'},
+                    {field:'Unitcost',title:'Unit Cost',width:80,align:'right'},
+                    {field:'Attr1',title:'Attribute',width:100},
+                    {field:'Status',title:'Status',width:60}
+                ]]
+            });
+        }
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+<div style="margin-bottom:20px">
+    <a href="#" onclick="changecolumn()">changecolumn</a>
+</div>
+
+<table id="tt" title="Frozen Columns" class="easyui-datagrid" style="width:550px;height:250px"
+       url="/getdata"
+       singleSelect="true" iconCls="icon-save">
+</table>
+
+
+</body>
+
+</html>

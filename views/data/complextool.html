@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        function doSearch(){
+            $('#tt').datagrid('load',{
+                itemid: $('#Itemid').val(),
+                productid: $('#Productid').val(),
+                from: $("input[name='from']").val()
+            });
+        }
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<table id="tt" class="easyui-datagrid" style="width:600px;height:250px"
+       url="/getdata"
+       title="Load Data" iconCls="icon-save" toolbar="#tb">
+    <div id="tb" style="padding:5px;height:auto">
+        <div style="margin-bottom:5px">
+            <span>Item ID:</span>
+            <input id="Itemid" style="line-height:26px;border:1px solid #ccc">
+            <span>Product ID:</span>
+            <input id="Productid" style="line-height:26px;border:1px solid #ccc">
+            <a href="#" class="easyui-linkbutton" plain="true" onclick="doSearch()">Search</a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true"></a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true"></a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true"></a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cut" plain="true"></a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true"></a>
+        </div>
+        <div>
+            Date From: <input  class="easyui-datebox" style="width:80px" name="from">
+            To: <input class="easyui-datebox" style="width:80px" name="to">
+            Language:
+            <input class="easyui-combobox" style="width:100px"
+                   valueField="id" textField="text">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-search">Search</a>
+        </div>
+    </div>
+
+    <thead>
+    <tr>
+        <th field="Itemid" width="80">Item ID</th>
+        <th field="Productid" width="80">Product ID</th>
+        <th field="Listprice" width="80" align="right">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>

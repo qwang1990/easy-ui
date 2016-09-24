@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $(function(){
+            $('#win').window({
+                collapsible:false,
+                minimizable:false,
+                maximizable:false,
+                tools:[{
+                    iconCls:'icon-add',
+                    handler:function(){
+                        alert('add');
+                    }
+                },{
+                    iconCls:'icon-remove',
+                    handler:function(){
+                        alert('remove');
+                    }
+                }]
+            });
+        });
+
+    </script>
+</head>
+<body>
+<h1>Diy Window</h1>
+<div id="win" class="easyui-window" title="My Window" style="padding:10px;width:200px;height:100px;">
+    window content
+</div>
+
+
+</body>
+
+</html>

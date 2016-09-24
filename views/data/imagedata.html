@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+        .c-label{
+            display:inline-block;
+            width:100px;
+            font-weight:bold;
+        }
+    </style>
+
+    <script>
+        var cardview = $.extend({}, $.fn.datagrid.defaults.view, {
+            renderRow: function(target, fields, frozen, rowIndex, rowData){
+                var cc = [];
+                cc.push('<td colspan=' + fields.length + ' style="padding:10px 5px;border:0;">');
+                if (!frozen){
+                    var aa = rowData.Itemid.split('-');
+                    var img = 'shirt' + aa[1] + '.gif';
+                    cc.push('<img src="/static/img/' + img + '" style="width:150px;float:left">');
+                    cc.push('<div style="float:left;margin-left:20px;">');
+                    for(var i=0; i<fields.length; i++){
+                        var copts = $(target).datagrid('getColumnOption', fields[i]);
+                        cc.push('<p><span class="c-label">' + copts.title + ':</span> ' + rowData[fields[i]] + '</p>');
+                    }
+                    cc.push('</div>');
+                }
+                cc.push('</td>');
+                return cc.join('');
+            }
+        });
+        $(function(){
+            $('#tt').datagrid({
+                view: cardview
+            });
+        });
+    </script>
+</head>
+<body>
+<h2>DataGrid Card View Demo</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+    <div>The datagrid row can be showed as card.</div>
+</div>
+
+<table id="tt" style="width:700px;height:350px" class="easyui-datagrid"
+       title="DataGrid - CardView" singleSelect="true" fitColumns="true" remoteSort="false"
+       url="/getdata" pagination="true" sortOrder="desc" sortName="itemid">
+    <thead>
+    <tr>
+        <th field="Itemid" width="80" sortable="true">Item ID</th>
+        <th field="Listprice" width="120" sortable="true">List Price</th>
+        <th field="Unitcost" width="80" sortable="true">Unit Cost</th>
+        <th field="Attr1" width="250" sortable="true">Attribute</th>
+        <th field="Status" width="60" sortable="true">Status</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>

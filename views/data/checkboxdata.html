@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<table id="tt" class="easyui-datagrid" style="width:600px;height:250px"
+       url="/getdata" pagination="true"
+       title="Load Data" iconCls="icon-save" toolbar="#tb">
+    <thead>
+    <tr>
+        <th field="Ck" checkbox="true"></th>
+        <th field="Itemid" width="80">Item ID</th>
+        <th field="Productid" width="80">Product ID</th>
+        <th field="Listprice" width="80" align="right">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>

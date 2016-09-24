@@ -1,0 +1,14 @@
+{"total":9,"rows":[
+{"id":1,"name":"Chai","price":18.00},
+{"id":2,"name":"Chang","price":19.00},
+{"id":3,"name":"Aniseed Syrup","price":10.00},
+{"id":4,"name":"Chef Anton's Cajun Seasoning","price":22.00},
+{"id":5,"name":"Chef Anton's Gumbo Mix","price":21.35},
+{"id":6,"name":"Grandma's Boysenberry Spread","price":25.00},
+{"id":7,"name":"Uncle Bob's Organic Dried Pears","price":30.00},
+{"id":8,"name":"Northwoods Cranberry Sauce","price":40.00},
+{"id":9,"name":"Mishi Kobe Niku","price":97.00}
+],"footer":[
+{"name":"Total","price":282.35},
+{"name":"Average","price":31.37}
+]}

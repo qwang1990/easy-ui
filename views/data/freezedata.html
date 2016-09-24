@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        $('#tt').datagrid({
+            title:'Frozen Columns',
+            iconCls:'icon-save',
+            width:500,
+            height:250,
+            url:'/getdata',
+            frozenColumns:[[
+                {field:'Itemid',title:'Item ID',width:80},
+                {field:'Productid',title:'Product ID',width:80},
+            ]],
+            columns:[[
+                {field:'Listprice',title:'List Price',width:80,align:'right'},
+                {field:'Unitcost',title:'Unit Cost',width:80,align:'right'},
+                {field:'Attr1',title:'Attribute',width:100},
+                {field:'Status',title:'Status',width:60}
+            ]]
+        });
+    </script>
+</head>
+<body>
+<h1>DataGrid</h1>
+
+<table id="tt" class="easyui-datagrid" style="width:500px;height:250px"
+       url="/getdata"
+       title="Load Data" iconCls="icon-save" toolbar="#tb">
+    <thead frozen="true">
+    <tr>
+        <th field="Itemid" width="80">Item ID</th>
+        <th field="Productid" width="80">Product ID</th>
+    </tr>
+    </thead>
+    <thead>
+    <tr>
+        <th field="Listprice" width="80" align="right">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+        <th field="Attr1" width="150">Attribute</th>
+        <th field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    </thead>
+</table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+
+    <script>
+        var products = [
+            {productid:'FI-SW-01',name:'Koi'},
+            {productid:'K9-DL-01',name:'Dalmation'},
+            {productid:'RP-SN-01',name:'Rattlesnake'},
+            {productid:'RP-LI-02',name:'Iguana'},
+            {productid:'FL-DSH-01',name:'Manx'},
+            {productid:'FL-DLH-02',name:'Persian'},
+            {productid:'AV-CB-01',name:'Amazon Parrot'}
+        ];
+        function formatProduct(value){
+            for(var i=0; i<products.length; i++){
+                if (products[i].productid == value) return products[i].name;
+            }
+            return value;
+        }
+        $(function(){
+            $('#tt').datagrid({
+                onLoadSuccess:function(){
+                    var merges = [{
+                        index:2,
+                        rowspan:2
+                    },{
+                        index:5,
+                        rowspan:2
+                    },{
+                        index:7,
+                        rowspan:2
+                    }];
+                    for(var i=0; i<merges.length; i++)
+                        $('#tt').datagrid('mergeCells',{
+                            index:merges[i].index,
+                            field:'productid',
+                            rowspan:merges[i].rowspan
+                        });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<h1>Merge Cells for DataGrid</h1>
+
+<table id="tt" title="Merge Cells" style="width:550px;height:250px"
+       url="/getdata"
+       singleSelect="true" iconCls="icon-save" rownumbers="true"
+       idField="Itemid" pagination="true">
+    <thead frozen="true">
+    <tr>
+        <th field="Productid" width="80" formatter="formatProduct">Product ID</th>
+        <th field="Itemid" width="100">Item ID</th>
+    </tr>
+    </thead>
+    <thead>
+    <tr>
+        <th colspan="2">Price</th>
+        <th rowspan="2" field="Attr1" width="150">Attribute</th>
+        <th rowspan="2" field="Status" width="60" align="center">Stauts</th>
+    </tr>
+    <tr>
+        <th field="Listprice" width="80" align="right">List Price</th>
+        <th field="Unitcost" width="80" align="right">Unit Cost</th>
+    </tr>
+    </thead>
+</table>
+
+</body>
+
+</html>
