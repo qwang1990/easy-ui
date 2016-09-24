@@ -1,0 +1,453 @@
+2016/09/24 11:23:41 [main.go:32] this is a message of http
+2016/09/24 11:23:41 [main.go:33] [ORM] this is a message of orm
+2016/09/24 11:23:41 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 11:23:41 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 11:23:41 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 11:23:41 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 11:23:41 [C] [proc.go:188] oh,crash
+2016/09/24 11:23:41 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 11:23:41 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|   13.88931ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|   4.083002ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|   3.254066ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|    4.51712ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|   6.720795ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 17:56:43 [D] [server.go:2081] |[42m 200 [0m|   7.492784ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|    7.06743ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|    415.931µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|   2.162767ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|   2.506736ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|   2.245728ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|   2.403738ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 17:57:58 [D] [server.go:2081] |[42m 200 [0m|   2.918176ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 17:57:58 [D] [server.go:2081] |[43m 404 [0m|   2.037724ms| nomatch|[44m [0m GET     /static/js/lang/zh-CN.js
+2016/09/24 17:57:58 [D] [server.go:2081] |[43m 404 [0m|   1.426066ms| nomatch|[44m [0m GET     /static/js/lang/zh-CN.js
+2016/09/24 17:57:59 [D] [server.go:2081] |[42m 200 [0m|    746.111µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 17:57:59 [D] [server.go:2081] |[43m 404 [0m|   3.654444ms| nomatch|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|   1.458321ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|    205.845µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|     105.19µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|   1.724698ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|   2.637804ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|    352.528µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|   3.108013ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 17:58:31 [D] [server.go:2081] |[42m 200 [0m|    122.013µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 17:58:32 [D] [server.go:2081] |[43m 404 [0m|   1.190734ms| nomatch|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|   5.346944ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|    167.536µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|     56.022µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|     95.713µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|    403.275µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|    298.058µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|    318.758µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 17:59:41 [D] [server.go:2081] |[42m 200 [0m|    128.597µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 17:59:42 [D] [server.go:2081] |[42m 200 [0m|    171.415µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 17:59:42 [D] [server.go:2081] |[42m 200 [0m|    174.222µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 18:16:51 [D] [server.go:2081] |[43m 404 [0m|   4.904266ms| nomatch|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 18:17:03 [D] [server.go:2081] |[43m 404 [0m|    797.796µs| nomatch|[44m [0m GET     /static/js/plugins/multiimage/multiimage.js
+2016/09/24 18:17:12 [D] [server.go:2081] |[43m 404 [0m|    792.443µs| nomatch|[44m [0m GET     /static/js/plugins/baidumap/baidumap.js
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|   2.738009ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    162.406µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    283.541µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    372.392µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    239.938µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    190.704µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|    494.736µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 18:17:44 [D] [server.go:2081] |[42m 200 [0m|   14.82892ms|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 18:17:45 [D] [server.go:2081] |[42m 200 [0m|     112.38µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 18:17:45 [D] [server.go:2081] |[42m 200 [0m|    270.112µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|    159.861µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|   1.077454ms|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|    145.385µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|    119.458µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|    150.798µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 18:17:46 [D] [server.go:2081] |[42m 200 [0m|     349.97µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 18:17:55 [D] [server.go:2081] |[42m 200 [0m|   1.230107ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 18:17:55 [D] [server.go:2081] |[43m 404 [0m|   2.431076ms| nomatch|[46m [0m POST    /static/js/php/upload_json.php
+2016/09/24 20:17:40 [D] [server.go:2081] |[42m 200 [0m|    311.079µs|   match|[44m [0m GET     /static/js/plugins/preview/preview.js
+2016/09/24 20:17:51 [D] [server.go:2081] |[47m 304 [0m|    301.037µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:37:34 [D] [server.go:2081] |[42m 200 [0m|    442.311µs|   match|[44m [0m GET     /static/js/plugins/code/code.js
+2016/09/24 20:37:39 [D] [server.go:2081] |[42m 200 [0m|   1.198111ms|   match|[44m [0m GET     /static/js/plugins/template/template.js
+2016/09/24 20:37:39 [D] [server.go:2081] |[42m 200 [0m|    398.796µs|   match|[44m [0m GET     /static/js/plugins/template/html/1.html
+2016/09/24 20:37:44 [D] [server.go:2081] |[42m 200 [0m|    452.708µs|   match|[44m [0m GET     /static/js/plugins/template/html/2.html
+2016/09/24 20:37:50 [D] [server.go:2081] |[42m 200 [0m|    105.579µs|   match|[44m [0m GET     /static/js/plugins/template/html/1.html
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|   4.664405ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    310.671µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    203.743µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    120.946µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[43m 404 [0m|   2.322324ms| nomatch|[44m [0m GET     /static/css/themes/example1/example1.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    463.443µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|   3.670575ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    595.842µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    172.272µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    192.992µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|   1.289956ms|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:45:55 [D] [server.go:2081] |[42m 200 [0m|    173.304µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|   3.740067ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|    174.781µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|     75.857µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|     60.284µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|    455.243µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|    141.927µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|     46.668µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|    234.598µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:46:22 [D] [server.go:2081] |[42m 200 [0m|    196.402µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:46:23 [D] [server.go:2081] |[42m 200 [0m|    150.311µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:46:23 [D] [server.go:2081] |[42m 200 [0m|    121.127µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|   1.417004ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    181.429µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    263.217µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|     84.081µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    167.032µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|     160.95µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    334.025µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    345.665µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:46:41 [D] [server.go:2081] |[42m 200 [0m|    147.171µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:46:42 [D] [server.go:2081] |[42m 200 [0m|    170.571µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:46:42 [D] [server.go:2081] |[42m 200 [0m|    151.577µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|   1.032119ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    111.493µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    121.737µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    110.008µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    103.978µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    180.005µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    600.968µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    139.207µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|   2.283862ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    195.646µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:46:44 [D] [server.go:2081] |[42m 200 [0m|    126.856µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:46:56 [D] [server.go:2081] |[42m 200 [0m|   1.910404ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:46:56 [D] [server.go:2081] |[42m 200 [0m|    206.715µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:46:56 [D] [server.go:2081] |[42m 200 [0m|    105.368µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|     93.203µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    178.567µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    799.901µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|   2.150115ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    214.603µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    287.459µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    128.305µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:46:57 [D] [server.go:2081] |[42m 200 [0m|    125.196µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|   1.077736ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|     84.278µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|     52.824µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|    121.069µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|    124.047µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|    164.375µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|   1.040906ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|    222.368µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:47:05 [D] [server.go:2081] |[42m 200 [0m|     79.277µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:47:06 [D] [server.go:2081] |[42m 200 [0m|    121.095µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:47:06 [D] [server.go:2081] |[42m 200 [0m|    109.685µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|   5.233205ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    361.789µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|     88.309µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    163.558µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|     91.285µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    613.247µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    360.221µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|   1.040278ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    559.104µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    248.321µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 20:58:23 [D] [server.go:2081] |[43m 404 [0m|   2.775932ms| nomatch|[44m [0m GET     /skins/default/default.gif
+2016/09/24 20:58:23 [D] [server.go:2081] |[42m 200 [0m|    166.482µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 20:58:25 [D] [server.go:2081] |[42m 200 [0m|   1.595279ms|   match|[44m [0m GET     /static/js/plugins/hello/hello.js
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|   6.443836ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    289.088µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    358.527µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|     75.849µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    513.306µs|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    169.163µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|     82.173µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    274.847µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:01:51 [D] [server.go:2081] |[42m 200 [0m|    130.561µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:01:52 [D] [server.go:2081] |[42m 200 [0m|     162.36µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:01:52 [D] [server.go:2081] |[42m 200 [0m|   1.613597ms|   match|[44m [0m GET     /static/img/arrow_up.gif
+2016/09/24 21:01:52 [D] [server.go:2081] |[42m 200 [0m|    151.868µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:01:54 [D] [server.go:2081] |[42m 200 [0m|     85.803µs|   match|[44m [0m GET     /static/js/plugins/hello/hello.js
+2016/09/24 21:09:10 [main.go:32] this is a message of http
+2016/09/24 21:09:10 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:09:10 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:09:10 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:09:10 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:09:10 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:09:10 [C] [proc.go:188] oh,crash
+2016/09/24 21:09:10 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:09:10 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:09:28 [main.go:32] this is a message of http
+2016/09/24 21:09:28 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:09:28 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:09:28 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:09:28 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:09:28 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:09:28 [C] [proc.go:188] oh,crash
+2016/09/24 21:09:28 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:09:28 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:09:45 [main.go:32] this is a message of http
+2016/09/24 21:09:45 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:09:45 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:09:45 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:09:45 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:09:45 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:09:45 [C] [proc.go:188] oh,crash
+2016/09/24 21:09:45 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:09:45 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:13:24 [main.go:32] this is a message of http
+2016/09/24 21:13:24 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:13:24 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:13:24 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:13:24 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:13:24 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:13:24 [C] [proc.go:188] oh,crash
+2016/09/24 21:13:24 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:13:24 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:14:14 [main.go:32] this is a message of http
+2016/09/24 21:14:14 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:14:14 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:14:14 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:14:14 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:14:14 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:14:14 [C] [proc.go:188] oh,crash
+2016/09/24 21:14:14 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:14:14 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|  11.712642ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|     645.63µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   2.206079ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   1.027848ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   2.171133ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   7.217787ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   9.320097ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   4.249952ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:17:41 [D] [server.go:2081] |[42m 200 [0m|   7.634605ms|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:17:42 [D] [server.go:2081] |[42m 200 [0m|   1.310334ms|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:17:42 [D] [server.go:2081] |[42m 200 [0m|    423.919µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|   1.124665ms|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|     474.41µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|    320.211µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|    382.951µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|    633.697µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:17:44 [D] [server.go:2081] |[42m 200 [0m|    298.937µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:17:52 [D] [server.go:2081] |[42m 200 [0m|   1.464672ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:17:52 [D] [server.go:2081] |[42m 204 [0m|    2.78522ms|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:18:28 [main.go:32] this is a message of http
+2016/09/24 21:18:28 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:18:28 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:18:28 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:18:28 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:18:28 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:18:28 [C] [proc.go:188] oh,crash
+2016/09/24 21:18:28 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:18:28 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:19:55 [D] [server.go:2081] |[42m 204 [0m|28.516932955s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:21:00 [D] [server.go:2081] |[42m 204 [0m|44.350043922s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:25:13 [main.go:32] this is a message of http
+2016/09/24 21:25:13 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:25:13 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:25:13 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:25:13 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:25:13 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:25:13 [C] [proc.go:188] oh,crash
+2016/09/24 21:25:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:25:13 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:25:24 [D] [server.go:2081] |[42m 200 [0m|   1.963278ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    799.539µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    388.463µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    366.533µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    453.999µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|   4.512502ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|   5.860944ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|   3.001054ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    510.677µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:25:25 [D] [server.go:2081] |[42m 200 [0m|    438.698µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|    585.043µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|    512.043µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|    319.802µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|     362.11µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|     368.49µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|    359.475µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:25:26 [D] [server.go:2081] |[42m 200 [0m|     339.34µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:25:34 [D] [server.go:2081] |[42m 200 [0m|    419.415µs|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:26:13 [main.go:32] this is a message of http
+2016/09/24 21:26:13 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:26:13 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:26:13 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:26:13 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:26:13 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:26:13 [C] [proc.go:188] oh,crash
+2016/09/24 21:26:13 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:26:13 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:26:17 [D] [server.go:2081] |[42m 200 [0m|   8.782062ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    1.65559ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    313.006µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    749.514µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|   3.638067ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    3.78453ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|   5.002005ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|   2.231777ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    450.707µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    582.786µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:26:18 [D] [server.go:2081] |[42m 200 [0m|    451.765µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|    471.795µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|    344.836µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|    312.143µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|    296.846µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|    378.168µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:26:19 [D] [server.go:2081] |[42m 200 [0m|     305.92µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:26:25 [D] [server.go:2081] |[42m 200 [0m|   1.085502ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:27:52 [main.go:32] this is a message of http
+2016/09/24 21:27:52 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:27:52 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:27:52 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:27:52 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:27:52 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:27:52 [C] [proc.go:188] oh,crash
+2016/09/24 21:27:53 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:27:53 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:28:29 [main.go:32] this is a message of http
+2016/09/24 21:28:29 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:28:29 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:28:29 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:28:29 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:28:29 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:28:29 [C] [proc.go:188] oh,crash
+2016/09/24 21:28:29 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:28:29 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:28:35 [D] [server.go:2081] |[42m 200 [0m|   1.592581ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|    364.448µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|    1.21866ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|   1.990909ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|   2.292585ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|   2.980518ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|    785.633µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|   3.997041ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:28:35 [D] [server.go:2081] |[47m 304 [0m|    7.25087ms|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:28:36 [D] [server.go:2081] |[47m 304 [0m|   1.161811ms|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:28:40 [D] [server.go:2081] |[42m 200 [0m|   1.737783ms|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:28:40 [D] [server.go:2081] |[42m 200 [0m|   1.781003ms|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:28:40 [D] [server.go:2081] |[42m 200 [0m|   2.095368ms|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:28:40 [D] [server.go:2081] |[42m 200 [0m|    870.284µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:28:40 [D] [server.go:2081] |[42m 200 [0m|   1.006942ms|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:30:14 [D] [server.go:2081] |[42m 204 [0m|1m26.927374361s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:35:09 [main.go:32] this is a message of http
+2016/09/24 21:35:09 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:35:09 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:35:09 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:35:09 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:35:09 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:35:09 [C] [proc.go:188] oh,crash
+2016/09/24 21:35:09 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:35:09 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:35:42 [D] [server.go:2081] |[41m 500 [0m|20.347143843s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] the request url is  /uploadfile
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] Handler crashed with error can't find templatefile in the path:formcontroller/uploadfile.tpl
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:472
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/panic.go:443
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/template.go:64
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:249
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:200
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/controller.go:184
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /Users/wangqi/gowork/src/github.com/astaxie/beego/router.go:792
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:2081
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/net/http/server.go:1472
+2016/09/24 21:36:26 [C] [asm_amd64.s:472] /usr/local/Cellar/go/1.6.2/libexec/src/runtime/asm_amd64.s:1998
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|   7.016157ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|   1.962835ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|    455.112µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|    528.318µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|    412.254µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|   1.109009ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|   2.872044ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|    2.91867ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:47:51 [D] [server.go:2081] |[42m 200 [0m|   1.871627ms|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:47:52 [D] [server.go:2081] |[42m 200 [0m|   1.075931ms|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:47:52 [D] [server.go:2081] |[42m 200 [0m|    508.397µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|   1.590617ms|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|    405.411µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|   8.703879ms|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|    392.997µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|    525.825µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:47:54 [D] [server.go:2081] |[42m 200 [0m|   1.490728ms|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:48:00 [D] [server.go:2081] |[42m 200 [0m|   1.334606ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:48:11 [main.go:32] this is a message of http
+2016/09/24 21:48:11 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:48:11 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:48:11 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:48:11 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:48:11 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:48:11 [C] [proc.go:188] oh,crash
+2016/09/24 21:48:11 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:48:11 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|   2.506237ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|    926.802µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|    404.735µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|    647.631µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|    448.933µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|   1.388401ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|   3.933216ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|   3.336262ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:48:16 [D] [server.go:2081] |[42m 200 [0m|   1.969276ms|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:48:17 [D] [server.go:2081] |[42m 200 [0m|    552.011µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:48:17 [D] [server.go:2081] |[42m 200 [0m|    550.768µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    413.179µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    318.302µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    631.706µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    379.961µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    325.371µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:48:18 [D] [server.go:2081] |[42m 200 [0m|    358.365µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:48:28 [D] [server.go:2081] |[42m 200 [0m|   1.142812ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:48:28 [D] [server.go:2081] |[42m 200 [0m|   5.400674ms|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:48:28 [D] [server.go:2081] |[43m 404 [0m|   3.847534ms| nomatch|[44m [0m GET     /files/fileheader.Filename
+2016/09/24 21:49:06 [main.go:32] this is a message of http
+2016/09/24 21:49:06 [main.go:33] [ORM] this is a message of orm
+2016/09/24 21:49:06 [D] [proc.go:188] my book is bought in the year of  2016
+2016/09/24 21:49:06 [I] [proc.go:188] this yellow cat is 3 years old
+2016/09/24 21:49:06 [W] [proc.go:188] json is a type of kv like map[key:2016]
+2016/09/24 21:49:06 [E] [proc.go:188] 1024 is a very good game
+2016/09/24 21:49:06 [C] [proc.go:188] oh,crash
+2016/09/24 21:49:06 [I] [asm_amd64.s:1998] http server Running on http://:8080
+2016/09/24 21:49:06 [I] [asm_amd64.s:1998] Admin server Running on :8088
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   6.274604ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   3.361781ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   8.044195ms|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   6.083508ms|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   3.710587ms|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   4.262237ms|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   8.330918ms|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   9.193079ms|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 21:49:12 [D] [server.go:2081] |[42m 200 [0m|   7.461492ms|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 21:49:13 [D] [server.go:2081] |[42m 200 [0m|    481.494µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 21:49:13 [D] [server.go:2081] |[42m 200 [0m|    913.204µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    424.346µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    342.384µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    358.997µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    470.192µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    370.995µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 21:49:14 [D] [server.go:2081] |[42m 200 [0m|    330.236µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 21:50:00 [D] [server.go:2081] |[42m 200 [0m|   1.102836ms|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 21:50:08 [D] [server.go:2081] |[42m 200 [0m| 8.308471362s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 21:50:08 [D] [server.go:2081] |[42m 200 [0m|    400.176µs|   match|[44m [0m GET     /files/14743759952667bfb877997f456fff638f88ab4fed302-1.jpg
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|   7.153636ms|   match|[44m [0m GET     /ajaxform   r:/ajaxform
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    319.839µs|   match|[44m [0m GET     /static/css/themes/default/easyui.css
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    229.046µs|   match|[44m [0m GET     /static/css/themes/icon.css
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|     128.69µs|   match|[44m [0m GET     /static/css/demo/demo.css
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|     92.452µs|   match|[44m [0m GET     /static/js/themes/example1/example1.css
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    202.467µs|   match|[44m [0m GET     /static/js/jquery.min.js
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|   1.582735ms|   match|[44m [0m GET     /static/js/jquery.easyui.min.js
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    534.038µs|   match|[44m [0m GET     /static/js/kindeditor.js
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    321.029µs|   match|[44m [0m GET     /static/js/lang/zh_CN.js
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    483.037µs|   match|[44m [0m GET     /static/js/themes/default/default.css
+2016/09/24 22:02:31 [D] [server.go:2081] |[42m 200 [0m|    117.412µs|   match|[44m [0m GET     /static/js/themes/default/default.png
+2016/09/24 22:02:39 [D] [server.go:2081] |[42m 200 [0m|    553.939µs|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/24 22:02:39 [D] [server.go:2081] |[42m 200 [0m|     657.55µs|   match|[44m [0m GET     /static/css/themes/default/images/blank.gif
+2016/09/24 22:02:39 [D] [server.go:2081] |[42m 200 [0m|    494.097µs|   match|[44m [0m GET     /static/css/themes/default/images/panel_tools.png
+2016/09/24 22:02:39 [D] [server.go:2081] |[42m 200 [0m|    516.219µs|   match|[44m [0m GET     /static/css/themes/default/images/messager_icons.png
+2016/09/24 22:02:55 [D] [server.go:2081] |[42m 200 [0m|    141.671µs|   match|[44m [0m GET     /static/js/plugins/image/image.js
+2016/09/24 22:02:56 [D] [server.go:2081] |[42m 200 [0m|     80.662µs|   match|[44m [0m GET     /static/js/themes/default/background.png
+2016/09/24 22:02:56 [D] [server.go:2081] |[42m 200 [0m|      95.04µs|   match|[44m [0m GET     /static/js/plugins/image/images/refresh.png
+2016/09/24 22:02:56 [D] [server.go:2081] |[42m 200 [0m|    105.776µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_left.gif
+2016/09/24 22:02:56 [D] [server.go:2081] |[42m 200 [0m|     69.578µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_top.gif
+2016/09/24 22:02:56 [D] [server.go:2081] |[42m 200 [0m|    209.957µs|   match|[44m [0m GET     /static/js/plugins/image/images/align_right.gif
+2016/09/24 22:03:01 [D] [server.go:2081] |[42m 200 [0m|    103.962µs|   match|[44m [0m GET     /static/js/themes/common/loading.gif
+2016/09/24 22:03:06 [D] [server.go:2081] |[42m 200 [0m| 5.081151032s|   match|[46m [0m POST    /uploadfile   r:/uploadfile
+2016/09/24 22:03:06 [D] [server.go:2081] |[42m 200 [0m|    546.483µs|   match|[44m [0m GET     /files/14743759952667bfb877997f456fff638f88ab4fed302-1.jpg
+2016/09/24 22:03:11 [D] [server.go:2081] |[42m 200 [0m|   1.157512ms|   match|[46m [0m POST    /formajaxdata   r:/formajaxdata
+2016/09/24 22:05:07 [D] [server.go:2081] |[42m 200 [0m|   2.274913ms|   match|[44m [0m GET     /static/js/plugins/table/table.js

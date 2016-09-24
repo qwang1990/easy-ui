@@ -3,6 +3,9 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"fmt"
+	"net/http"
+	"os"
+	"io"
 )
 
 type FormController struct {
@@ -62,3 +65,44 @@ func (this *FormController) FormatData() {
 func (this *FormController) ComboGridForm() {
 	this.TplName="form/combogridform.html"
 }
+
+
+
+type UploadResponse struct {
+	Error int `json:"error"`
+	Url string `json:"url"`
+}
+
+func (this *FormController) UploadFile() {
+	fmt.Println(this.Ctx.Request)
+	files, fileheader,err:= this.GetFile("imgFile")
+	if err != nil {
+		http.Error(this.Ctx.ResponseWriter, err.Error(), http.StatusNoContent)
+		return
+	}
+	dst, err := os.Create("upload/" + fileheader.Filename)
+	defer dst.Close()
+	if err != nil {
+		http.Error(this.Ctx.ResponseWriter, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	//copy the uploaded file to the destination file
+	if _, err := io.Copy(dst, files); err != nil {
+		http.Error(this.Ctx.ResponseWriter, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	uprs := &UploadResponse{Error:0,Url:"/files/"+fileheader.Filename}
+
+	this.Data["json"] = &uprs
+	this.ServeJSON()
+}
+
+
+
+
+
+
+
+
+

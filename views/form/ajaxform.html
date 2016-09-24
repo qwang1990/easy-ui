@@ -6,8 +6,20 @@
     <link rel="stylesheet" type="text/css" href="/static/css/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/static/css/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="/static/css/demo/demo.css">
+    <link rel="stylesheet" href="/static/js/themes/example1/example1.css" />
     <script type="text/javascript" src="/static/js/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+    <script charset="utf-8" src="/static/js/kindeditor.js"></script>
+    <script charset="utf-8" src="/static/js/lang/zh_CN.js"></script>
+
+    <style>
+        .ke-icon-hello {
+            background-image: url(/static/img/arrow_up.gif);
+            background-position: 0px -672px;
+            width: 16px;
+            height: 16px;
+        }
+    </style>
 
     <script>
         $(function(){
@@ -15,6 +27,24 @@
                 success:function(data){
                     $.messager.alert('Info', data, 'info');
                 }
+            });
+
+            KindEditor.ready(function(K) {
+                K.create('#textarea_id', {
+                    uploadJson : '../jsp/upload_json.jsp',
+                    fileManagerJson : '../jsp/file_manager_json.jsp',
+                    allowFileManager : true
+                });
+            });
+
+
+            KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id',{
+                    themeType : 'example1',
+                    uploadJson : '/uploadfile',
+                   // fileManagerJson : '../jsp/file_manager_json.jsp',
+                    allowFileManager : true
+                });
             });
         });
     </script>
@@ -40,9 +70,16 @@
                 <td></td>
                 <td><input type="submit" value="Submit"/></td>
             </tr>
+
+            <textarea id="editor_id" name="content" style="width:700px;height:300px;">
+                    &lt;strong&gt;HTML内容&lt;/strong&gt;
+            </textarea>
         </table>
     </form>
 </div></div>
+
+
+
 
 
 </body>

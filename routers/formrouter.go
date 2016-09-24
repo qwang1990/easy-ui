@@ -15,4 +15,6 @@ func init() {
 
 	beego.Router("/combotdata",&controllers.FormController{},"*:FormatData")
 	beego.Router("/combogridform",&controllers.FormController{},"*:ComboGridForm")
+
+	beego.Router("/uploadfile",&controllers.FormController{},"*:UploadFile")
 }

@@ -39,6 +39,8 @@ func main() {
 	logs.Critical("oh,crash")
 	toolbox.AddHealthCheck("database",&DatabaseCheck{})
 
+	beego.SetStaticPath("/files","upload")
+
 	beego.Run()
 
 
